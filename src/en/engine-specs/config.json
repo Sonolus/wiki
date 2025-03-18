@@ -1,0 +1,17 @@
+{
+    "title": "Engine Specs",
+    "description": "Specifications for Sonolus engines",
+    "engineSpecs": "Engine Specs",
+    "resources": "Resources",
+    "essentials": "Essentials",
+    "playLifecycle": "Play: Lifecycle",
+    "playBlocks": "Play: Blocks",
+    "watchLifecycle": "Watch: Lifecycle",
+    "watchBlocks": "Watch: Blocks",
+    "previewLifecycle": "Preview: Lifecycle",
+    "previewBlocks": "Preview: Blocks",
+    "tutorialLifecycle": "Tutorial: Lifecycle",
+    "tutorialBlocks": "Tutorial: Blocks",
+    "functionOptimizations": "Function Optimizations",
+    "functions": "Functions"
+}

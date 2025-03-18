@@ -1,0 +1,15 @@
+{
+  "name": "sonolus-wiki",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "devDependencies": {
+    "@types/node": "^20.17.24",
+    "vitepress": "^2.0.0-alpha.4"
+  },
+  "scripts": {
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "preview": "vitepress preview"
+  }
+}

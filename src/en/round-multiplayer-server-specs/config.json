@@ -1,0 +1,9 @@
+{
+    "title": "Round Multiplayer Server Specs",
+    "description": "Specifications for Sonolus round multiplayer servers",
+    "roundMultiplayerServerSpecs": "Round Multiplayer Server Specs",
+    "state": "State",
+    "misc": "Misc",
+    "events": "Events",
+    "commands": "Commands"
+}

@@ -1,0 +1,9 @@
+{
+    "title": "Custom Server Specs",
+    "description": "Specifications for Sonolus custom servers",
+    "customServerSpecs": "Custom Server Specs",
+    "endpoints": "Endpoints",
+    "headers": "Headers",
+    "queryParameters": "Query Parameters",
+    "misc": "Misc"
+}

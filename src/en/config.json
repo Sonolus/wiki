@@ -1,0 +1,16 @@
+{
+    "name": "English (English)",
+    "lang": "en",
+    "title": "Sonolus Wiki",
+    "description": "Knowledge center for everything about Sonolus",
+    "search": "Search",
+    "theme": "Theme",
+    "lightTheme": "Light",
+    "darkTheme": "Dark",
+    "menu": "Menu",
+    "onThisPage": "On This Page",
+    "previousPage": "Previous Page",
+    "nextPage": "Next Page",
+    "player": "Player",
+    "developer": "Developer"
+}
