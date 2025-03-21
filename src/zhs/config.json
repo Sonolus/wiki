@@ -4,9 +4,17 @@
     "title": "Sonolus 百科",
     "description": "关于 Sonolus 一切的知识中心",
     "search": "搜索",
+    "searchNoResults": "无法找到相关结果",
+    "searchNavigate": "切换",
+    "searchSelect": "选择",
+    "searchClose": "关闭",
     "theme": "主题",
     "lightTheme": "亮色",
     "darkTheme": "暗色",
+    "menu": "菜单",
+    "onThisPage": "页面导航",
+    "previousPage": "上一页",
+    "nextPage": "下一页",
     "player": "玩家",
     "developer": "开发者"
 }

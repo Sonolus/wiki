@@ -4,9 +4,17 @@
     "title": "Sonolus Wiki",
     "description": "Центр знаний обо всём про Sonolus",
     "search": "Поиск",
+    "searchNoResults": "Нет результатов для",
+    "searchNavigate": "перейти",
+    "searchSelect": "выбрать",
+    "searchClose": "закрыть",
     "theme": "Тема",
     "lightTheme": "Светлая",
     "darkTheme": "Тёмная",
+    "menu": "Меню",
+    "onThisPage": "Содержание страницы",
+    "previousPage": "Предыдущая страница",
+    "nextPage": "Следующая страница",
     "player": "Игрок",
     "developer": "Разработчик"
 }
