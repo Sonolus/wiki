@@ -206,4 +206,6 @@ export default defineConfig({
             } satisfies LocaleConfig<DefaultTheme.Config>[string],
         ]),
     ),
+
+    metaChunk: true,
 })
