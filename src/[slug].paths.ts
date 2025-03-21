@@ -75,7 +75,7 @@ export default {
                         : files
                               .filter(({ path }) => !existsSync(`./src/${locale}${path.slice(8)}`))
                               .map(({ path, content }) => ({
-                                  params: { slug: `${locale}${path.slice(8, path.length - 3)}` },
+                                  params: { slug: `${locale}${path.slice(8, -3)}` },
                                   content,
                               }))),
                 ]
