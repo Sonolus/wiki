@@ -205,8 +205,8 @@ export default defineConfig({
                                                   ),
                                         link:
                                             locale === 'en'
-                                                ? `/${path}${subpath}`
-                                                : `/${locale}/${path}${subpath}`,
+                                                ? `/${path}${subpath || '/'}`
+                                                : `/${locale}/${path}${subpath || '/'}`,
                                     })),
                                 })),
                             ]
