@@ -4,9 +4,17 @@
     "title": "Sonolus Wiki",
     "description": "Centro de información para todo lo relacionado a Sonolus",
     "search": "Buscar",
+    "searchNoResults": "No fue posible encontrar resultados",
+    "searchNavigate": "Navegar",
+    "searchSelect": "Seleccionar",
+    "searchClose": "Cerrar",
     "theme": "Tema",
     "lightTheme": "Claro",
     "darkTheme": "Oscuro",
+    "menu": "Menu Lateral",
+    "onThisPage": "En esta página",
+    "previousPage": "Anterior",
+    "nextPage": "Siguiente",
     "player": "Jugador",
     "developer": "Desarrollador"
 }

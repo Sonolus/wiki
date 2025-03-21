@@ -4,9 +4,17 @@
     "title": "Sonolus 위키",
     "description": "Sonolus에 대한 모든 정보가 담겨있는 지식 센터",
     "search": "검색",
+    "searchNoResults": "결과를 찾을 수 없습니다",
+    "searchNavigate": "탐색",
+    "searchSelect": "선택",
+    "searchClose": "닫기",
     "theme": "테마",
     "lightTheme": "라이트",
     "darkTheme": "다크",
+    "menu": "사이드바 메뉴",
+    "onThisPage": "이 페이지 목차",
+    "previousPage": "이전",
+    "nextPage": "다음",
     "player": "플레이어",
     "developer": "개발자"
 }
