@@ -105,6 +105,16 @@ export default defineConfig({
                                     buttonText: config.search ?? baseConfig.search,
                                     buttonAriaLabel: config.search ?? baseConfig.search,
                                 },
+                                modal: {
+                                    noResultsText:
+                                        config.searchNoResults ?? baseConfig.searchNoResults,
+                                    footer: {
+                                        navigateText:
+                                            config.searchNavigate ?? baseConfig.searchNavigate,
+                                        selectText: config.searchSelect ?? baseConfig.searchSelect,
+                                        closeText: config.searchClose ?? baseConfig.searchClose,
+                                    },
+                                },
                             },
                         } satisfies Pick<DefaultTheme.LocalSearchOptions, 'translations'>,
                     ]),
