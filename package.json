@@ -9,7 +9,7 @@
   },
   "scripts": {
     "dev": "vitepress dev",
-    "build": "vitepress build",
+    "build": "vitepress build && node ./.vitepress/trim.js",
     "preview": "vitepress preview"
   }
 }
