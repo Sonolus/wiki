@@ -15,17 +15,19 @@ const renderTitle = (markdown: string) => {
         )
         .trim()
 
-    return html.startsWith('<p>') && html.endsWith('</p>') ? html.slice(3, html.length - 4) : html
+    return html.startsWith('<p>') && html.endsWith('</p>') ? html.slice(3, -4) : html
 }
 
 const locales = readdirSync('./src', { withFileTypes: true })
-    .filter((dirent) => dirent.isDirectory() && dirent.name !== 'public')
-    .map(({ name }) => ({
-        locale: name,
-        config: JSON.parse(readFileSync(`./src/${name}/config.json`, 'utf8')),
-    }))
+    .filter((dirent) => dirent.isDirectory() && !['public', 'en'].includes(dirent.name))
+    .map(({ name }) => name)
 
-const baseConfig = locales.find(({ locale }) => locale === 'en')!.config
+const configs = ['en', ...locales].map((locale) => ({
+    locale,
+    config: JSON.parse(readFileSync(`./src/${locale}/config.json`, 'utf8')),
+}))
+
+const baseConfig = configs[0].config
 
 const baseNav = Object.entries(nav).map(([key, paths]) => ({
     key,
@@ -97,7 +99,7 @@ export default defineConfig({
             provider: 'local',
             options: {
                 locales: Object.fromEntries(
-                    locales.map(({ locale, config }) => [
+                    configs.map(({ locale, config }) => [
                         locale === 'en' ? 'root' : locale,
                         {
                             translations: {
@@ -126,7 +128,7 @@ export default defineConfig({
     },
 
     locales: Object.fromEntries(
-        locales.map(({ locale, config }) => [
+        configs.map(({ locale, config }) => [
             locale === 'en' ? 'root' : locale,
             {
                 label: config.name,
@@ -218,4 +220,10 @@ export default defineConfig({
     ),
 
     metaChunk: true,
+
+    vite: {
+        define: {
+            __locales__: JSON.stringify(locales),
+        },
+    },
 })
