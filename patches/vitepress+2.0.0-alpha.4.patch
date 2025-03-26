@@ -1,0 +1,37 @@
+diff --git a/node_modules/vitepress/dist/client/app/index.js b/node_modules/vitepress/dist/client/app/index.js
+index 5463ae9..54cdff5 100644
+--- a/node_modules/vitepress/dist/client/app/index.js
++++ b/node_modules/vitepress/dist/client/app/index.js
+@@ -97,6 +97,15 @@ function newRouter() {
+     return createRouter((path) => {
+         let pageFilePath = pathToFile(path);
+         let pageModule = null;
++
++        if (inBrowser && !pageFilePath) {
++            const locale = path.split('/')[1]
++            if (__locales__.includes(locale)) {
++                isInitialPageLoad = false
++                pageFilePath = pathToFile(path.slice(locale.length + 1)) + '?fallback=' + locale
++            }
++        }
++
+         if (pageFilePath) {
+             // use lean build if this is the initial page load
+             if (isInitialPageLoad) {
+diff --git a/node_modules/vitepress/dist/node/chunk-BBDUp32J.js b/node_modules/vitepress/dist/node/chunk-BBDUp32J.js
+index 3b1fb75..8e9466e 100644
+--- a/node_modules/vitepress/dist/node/chunk-BBDUp32J.js
++++ b/node_modules/vitepress/dist/node/chunk-BBDUp32J.js
+@@ -37172,7 +37172,11 @@ function injectPageDataCode(tags, data) {
+   const code = `
+ export const __pageData = JSON.parse(${JSON.stringify(
+     JSON.stringify(data)
+-  )})`;
++  )})
++  if (import.meta.url.includes('?fallback=')) {
++    __pageData.relativePath = import.meta.url.slice(import.meta.url.lastIndexOf('=') + 1) + '/' + __pageData.relativePath
++  }
++  `;
+   const existingScriptIndex = tags.findIndex((tag) => {
+     return scriptRE.test(tag) && !scriptSetupRE.test(tag) && !scriptClientRE$1.test(tag);
+   });
