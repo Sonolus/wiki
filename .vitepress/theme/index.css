@@ -1,0 +1,63 @@
+:root {
+    --vp-c-surface: #a38ff8;
+}
+
+.dark {
+    --vp-c-surface: #000000;
+}
+
+:root {
+    --vp-c-bg: #c2c2e6;
+    --vp-c-bg-alt: rgba(255, 255, 255, 0.25);
+    --vp-c-bg-elv: #cacae9;
+    --vp-c-bg-soft: rgba(255, 255, 255, 0.125);
+}
+
+.dark {
+    --vp-c-bg: #000020;
+    --vp-c-bg-alt: rgba(255, 255, 255, 0.0625);
+    --vp-c-bg-elv: #080827;
+    --vp-c-bg-soft: rgba(255, 255, 255, 0.03125);
+}
+
+:root {
+    --vp-c-border: rgba(255, 255, 255, 0.5);
+    --vp-c-divider: rgba(255, 255, 255, 0.5);
+    --vp-c-gutter: rgba(255, 255, 255, 0.75);
+}
+
+.dark {
+    --vp-c-border: rgba(255, 255, 255, 0.125);
+    --vp-c-divider: rgba(255, 255, 255, 0.125);
+    --vp-c-gutter: rgba(255, 255, 255, 0.25);
+}
+
+:root {
+    --vp-c-text-1: rgba(36, 36, 36, 1);
+    --vp-c-text-2: rgba(36, 36, 36, 0.75);
+    --vp-c-text-3: rgba(36, 36, 36, 0.25);
+}
+
+.dark {
+    --vp-c-text-1: rgba(255, 255, 255, 1);
+    --vp-c-text-2: rgba(255, 255, 255, 0.75);
+    --vp-c-text-3: rgba(255, 255, 255, 0.25);
+}
+
+:root {
+    --vp-sidebar-bg-color: var(--vp-c-surface);
+}
+
+:root {
+    --vp-backdrop-bg-color: rgba(194, 194, 230, 0.75);
+}
+
+.dark {
+    --vp-backdrop-bg-color: rgba(0, 0, 32, 0.75);
+}
+
+:root {
+    --vp-local-search-bg: var(--vp-c-surface);
+    --vp-local-search-result-bg: var(--vp-c-surface);
+    --vp-local-search-result-selected-bg: var(--vp-c-surface);
+}
