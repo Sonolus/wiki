@@ -12,7 +12,6 @@ type ServiceUserProfile = {
     avatarForegroundColor: string
     avatarBackgroundColor: string
     aboutMe: string
-    socialLinks: { title: string; address: string }[]
     favorites: string[]
 }
 ```
@@ -27,13 +26,6 @@ type ServiceUserProfile = {
     "avatarForegroundColor": "#ffffffff",
     "avatarBackgroundColor": "#000020ff",
     "aboutMe": "Nice to meet you!",
-    "socialLinks": [
-        {
-            "title": "Link",
-            "address": "https:// ..."
-        }
-        // ...
-    ],
     "favorites": [
         "sonolus:// ..."
         // ...
