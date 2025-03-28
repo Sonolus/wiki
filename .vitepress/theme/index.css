@@ -45,6 +45,14 @@
 }
 
 :root {
+    --vp-code-tab-bg: rgba(255, 255, 255, 0.5);
+}
+
+.dark {
+    --vp-code-tab-bg: rgba(255, 255, 255, 0.125);
+}
+
+:root {
     --vp-nav-bg-color: var(--vp-c-surface);
 }
 
