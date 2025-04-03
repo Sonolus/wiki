@@ -1,4 +1,6 @@
 {
-    "title": "Notes de version",
-    "description": "Informations sur les versions les plus récentes et passées de Sonolus"
+  "title": "Notes de Version",
+  "description": "Informations sur les dernières et anciennes versions de Sonolus",
+  "releaseNotes": "Notes de Version",
+  "versions": "Versions"
 }
