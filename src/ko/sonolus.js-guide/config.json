@@ -1,4 +1,9 @@
 {
-    "title": "Sonolus.js 길잡이",
-    "description": "Sonolus.js를 통한 엔진 개발의 길잡이"
+  "title": "Sonolus.js 길잡이",
+  "description": "Sonolus.js를 통한 엔진 개발의 길잡이",
+  "sonolusJsGuide": "Sonolus.js 길잡이",
+  "play": "플레이",
+  "watch": "시청",
+  "preview": "미리보기",
+  "tutorial": "튜토리얼"
 }
