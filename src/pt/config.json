@@ -1,3 +1,20 @@
 {
-  "name": "Português (Portuguese)"
+  "name": "Português (Portuguese)",
+  "lang": "pt",
+  "title": "Wiki Sonolus",
+  "description": "Centro de conhecimento para tudo sobre Sonolus",
+  "search": "Procurar",
+  "searchNoResults": "Nenhum resultado para",
+  "searchNavigate": "navegar",
+  "searchSelect": "selecionar",
+  "searchClose": "fechar",
+  "theme": "Tema",
+  "lightTheme": "Luz",
+  "darkTheme": "Escuro",
+  "menu": "Menu",
+  "onThisPage": "Nesta página",
+  "previousPage": "Página anterior",
+  "nextPage": "Próxima página",
+  "player": "Jogador",
+  "developer": "Desenvolvedor"
 }
