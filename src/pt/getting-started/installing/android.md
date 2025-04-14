@@ -2,24 +2,24 @@
 
 O Sonolus está atualmente em desenvolvimento, portanto ainda não está disponível na lojas Andróid.
 
-To install Sonolus on Android device, use any of the methods below.
+Para instalar o Sonolus em um dispositivo Android, use qualquer um dos métodos abaixo.
 
-## Sideload
+## Carregamento lateral
 
-### 1. Enable Sideloading
+### 1. Habilitar Sideloading
 
-This step differs depending on your device and Android version, please consult relevant resources.
+Esta etapa varia dependendo do seu dispositivo e da versão do Android. Consulte os recursos relevantes.
 
-For example, for vanilla Android Oreo and newer, you can find it in:
+Por exemplo, para o Android Oreo vanilla e mais recentes, você pode encontrá-lo em:
 
-1. Settings
-2. Apps &amp; Notifications
-3. Advanced
-4. Special App Access
-5. Install Unknown Apps
-6. Select a source
-7. Allow From This Source
+1. Configurações
+2. Aplicativos e notificações
+3. Avançado
+4. Acesso especial ao aplicativo
+5. Instalar aplicativos desconhecidos
+6. Selecione uma fonte
+7. Permitir desta fonte
 
-### 2. Install
+### 2. Instalar
 
-Download and install <a href="%60https://download.sonolus.com/Sonolus_%24%7Bversion.link%7D.apk%60" target="_blank" rel="noreferrer">Sonolus_{{ version.link }}.apk</a>.
+Baixe e instale <a href="%60https://download.sonolus.com/Sonolus_%24%7Bversion.link%7D.apk%60" target="_blank" rel="noreferrer">o Sonolus_{{ version.link }}.apk</a> .
