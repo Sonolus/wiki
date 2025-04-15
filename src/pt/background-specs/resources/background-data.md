@@ -35,5 +35,9 @@ Formatos suportados: `#RGB` e `#RRGGBB` .
 ## Exemplos
 
 ```json
-{ "aspectRatio": 1.778, "fit": "cover", "color": "#000000" }
+{
+    "aspectRatio": 1.778,
+    "fit": "cover",
+    "color": "#000000"
+}
 ```

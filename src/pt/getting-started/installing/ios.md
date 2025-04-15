@@ -21,7 +21,7 @@ Várias ferramentas podem ajudar com o sideloading, como:
 - [Sideloadly](https://sideloadly.io)
 - [爱思助手](https://www.i4.cn)
 
-Baixe e carregue <a target="_blank" rel="noreferrer" href="%60https://download.sonolus.com/Sonolus_%24%7Bversion.link%7D.ipa%60">Sonolus_{{ version.link }}.ipa</a> usando qualquer uma dessas ferramentas.
+Baixe e carregue <a :href="`https://download.sonolus.com/Sonolus_${version.link}.ipa`" target="_blank" rel="noreferrer">Sonolus\_{{ version.link }}.ipa</a> usando qualquer uma dessas ferramentas.
 
 Observação: a Sonolus não está associada às ferramentas acima e não pode garantir sua segurança ou autenticidade. Proceda com cuidado.
 
@@ -33,7 +33,7 @@ Vários serviços podem ajudar com o sideload, como:
 - [Signum](https://signumsign.me)
 - [Signulous](https://www.signulous.com)
 
-Baixe e carregue lateralmente <a target="_blank" rel="noreferrer" href="%60https://download.sonolus.com/Sonolus_%24%7Bversion.link%7D.ipa%60"> Sonolus_{{ version.link }}.ipa</a> usando qualquer um desses serviços.
+Baixe e carregue lateralmente <a :href="`https://download.sonolus.com/Sonolus_${version.link}.ipa`" target="_blank" rel="noreferrer">Sonolus\_{{ version.link }}.ipa</a> usando qualquer um desses serviços.
 
 Observação: a Sonolus não está associada aos serviços acima e não pode garantir sua segurança ou autenticidade. Proceda com cuidado.
 
@@ -43,6 +43,6 @@ Consulte vários guias de jailbreak, como:
 
 - [Guia iOS](https://ios.cfw.guide)
 
-Baixe e instale <a target="_blank" rel="noreferrer" href="%60https://download.sonolus.com/Sonolus_%24%7Bversion.link%7D.ipa%60">Sonolus_{{ version.link }}.ipa</a> após o jailbreak.
+Baixe e instale <a :href="`https://download.sonolus.com/Sonolus_${version.link}.ipa`" target="_blank" rel="noreferrer">Sonolus\_{{ version.link }}.ipa</a> após o jailbreak.
 
 Observação: a Sonolus não está associada aos guias acima e não pode garantir sua segurança ou autenticidade. Prossiga com cuidado.
