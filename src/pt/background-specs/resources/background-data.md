@@ -11,18 +11,22 @@ Recurso JSON.
 ## Sintaxe
 
 ```ts
-tipo BackgroundData = { aspectRatio: número ajuste: 'largura' | 'altura' | 'contém' | 'capa' cor: string }
+type BackgroundData = {
+    aspectRatio: number
+    fit: 'width' | 'height' | 'contain' | 'cover'
+    color: string
+}
 ```
 
-### `Proporção de aspecto`
+### `aspectRatio`
 
 Proporção da imagem de fundo.
 
-### `ajustar`
+### `fit`
 
 Estratégia de ajuste quando a proporção da imagem de fundo não corresponde à proporção da tela.
 
-### `cor`
+### `color`
 
 Sequência de caracteres de cor HTML para cor de fundo.
 
@@ -31,5 +35,9 @@ Formatos suportados: `#RGB` e `#RRGGBB` .
 ## Exemplos
 
 ```json
-{ "aspectRatio": 1.778, "fit": "capa", "cor": "#000000" }
+{
+    "aspectRatio": 1.778,
+    "fit": "cover",
+    "color": "#000000"
+}
 ```

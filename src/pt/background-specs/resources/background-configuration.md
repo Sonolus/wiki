@@ -5,24 +5,24 @@ A configuração em segundo plano é usada pelo Sonolus para preencher a interfa
 ## Sintaxe
 
 ```ts
-tipo BackgroundConfiguration = {
-escopo?: string
-desfoque: número
-máscara: string
+type BackgroundConfiguration = {
+    scope?: string
+    blur: number
+    mask: string
 }
 ```
 
-### `escopo`
+### `scope`
 
 A configuração é salva automaticamente e compartilhada entre todos os planos de fundo do mesmo escopo.
 
 Sem especificar um escopo, a configuração será salva apenas para este plano de fundo.
 
-### `Desfoque`
+### `blur`
 
 Desfoque da imagem de fundo, de `0` a `1` .
 
-### `máscara`
+### `mask`
 
 Sequência de cores HTML para máscara sobreposta ao fundo.
 
@@ -32,7 +32,7 @@ Formatos suportados: `#RGB` , `#RRGGBB` , `#RGBA` e `#RRGGBBAA` .
 
 ```json
 {
-"Desfoque": 0.05,
-"Máscara": "#00000080"
+    "blur": 0.05,
+    "mask": "#00000080"
 }
 ```
