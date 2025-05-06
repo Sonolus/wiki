@@ -14,14 +14,14 @@ Remarque : en raison de la popularité de Sonolus, TestFlight est très souvent
 
 Différents outils peuvent aider à l'installation manuelle, tels que:
 
-- [AltStore](https://altstore.io)
-- [SideStore](https://sidestore.io)
-- [TrollStore](https://github.com/opa334/TrollStore)
-- [3uTools](http://3u.com)
-- [Sideloadly](https://sideloadly.io)
-- [爱思助手](https://www.i4.cn)
+-   [AltStore](https://altstore.io)
+-   [SideStore](https://sidestore.io)
+-   [TrollStore](https://github.com/opa334/TrollStore)
+-   [3uTools](http://3u.com)
+-   [Sideloadly](https://sideloadly.io)
+-   [爱思助手](https://www.i4.cn)
 
-Téléchargez et installez manuellement <a target="_blank" rel="noreferrer" href="%60https://download.sonolus.com/Sonolus_%24%7Bversion.link%7D.ipa%60">Sonolus_{{ version.link }}.ipa</a> à l'aide de l'un de ces outils.
+Téléchargez et installez manuellement <a :href="`https://download.sonolus.com/Sonolus_${version.link}.ipa`" target="_blank" rel="noreferrer">Sonolus\_{{ version.link }}.ipa</a> à l'aide de l'un de ces outils.
 
 Remarque : Sonolus n'est pas associé aux outils ci-dessus et ne peut garantir leur sécurité ou leur authenticité, veuillez procéder avec prudence.
 
@@ -29,11 +29,11 @@ Remarque : Sonolus n'est pas associé aux outils ci-dessus et ne peut garantir l
 
 Différents services peuvent aider à l'installation manuelle, tels que:
 
-- [Scarlet](https://usescarlet.com)
-- [Signum](https://signumsign.me)
-- [Signulous](https://www.signulous.com)
+-   [Scarlet](https://usescarlet.com)
+-   [Signum](https://signumsign.me)
+-   [Signulous](https://www.signulous.com)
 
-Téléchargez et installez manuellement <a target="_blank" rel="noreferrer" href="%60https://download.sonolus.com/Sonolus_%24%7Bversion.link%7D.ipa%60">Sonolus_{{ version.link }}.ipa</a> en utilisant l'un de ces services.
+Téléchargez et installez manuellement <a :href="`https://download.sonolus.com/Sonolus_${version.link}.ipa`" target="_blank" rel="noreferrer">Sonolus\_{{ version.link }}.ipa</a> en utilisant l'un de ces services.
 
 Remarque : Sonolus n'est pas associé aux services ci-dessus et ne peut garantir leur sécurité ou leur authenticité, veuillez procéder avec prudence.
 
@@ -41,8 +41,8 @@ Remarque : Sonolus n'est pas associé aux services ci-dessus et ne peut garantir
 
 Veuillez consulter divers guides de jailbreaking, tels que:
 
-- [Guide iOS](https://ios.cfw.guide)
+-   [Guide iOS](https://ios.cfw.guide)
 
-Téléchargez et installez <a target="_blank" rel="noreferrer" href="%60https://download.sonolus.com/Sonolus_%24%7Bversion.link%7D.ipa%60">Sonolus_{{ version.link }}.ipa</a> après le jailbreak.
+Téléchargez et installez <a :href="`https://download.sonolus.com/Sonolus_${version.link}.ipa`" target="_blank" rel="noreferrer">Sonolus\_{{ version.link }}.ipa</a> après le jailbreak.
 
 Remarque : Sonolus n'est pas associé aux guides ci-dessus et ne peut garantir leur sécurité ou leur authenticité, veuillez procéder avec prudence.
