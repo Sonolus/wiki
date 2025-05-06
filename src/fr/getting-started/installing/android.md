@@ -22,4 +22,4 @@ Par exemple, sur Android Oreo et plus récent, vous pouvez trouver l'option dans
 
 ### 2. Installer
 
-Téléchargez et installez <a target="_blank" rel="noreferrer" href="%60https://download.sonolus.com/Sonolus_%24%7Bversion.link%7D.apk%60">Sonolus_{{ version.link }}.apk</a> .
+Téléchargez et installez <a :href="`https://download.sonolus.com/Sonolus_${version.link}.apk`" target="_blank" rel="noreferrer">Sonolus\_{{ version.link }}.apk</a>.
