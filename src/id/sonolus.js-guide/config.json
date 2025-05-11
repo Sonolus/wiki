@@ -1,4 +1,9 @@
 {
-    "title": "Panduan Sonolus.js",
-    "description": "Panduan untuk pengembangan mesin menggunakan Sonolus.js"
+  "title": "Panduan Sonolus.js",
+  "description": "Panduan untuk pengembangan mesin menggunakan Sonolus.js",
+  "sonolusJsGuide": "Panduan Sonolus.js",
+  "play": "Main",
+  "watch": "Tonton",
+  "preview": "Pratinjau",
+  "tutorial": "Tutorial"
 }
