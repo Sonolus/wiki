@@ -1,4 +1,6 @@
 {
-    "title": "Especificaciones de fondos",
-    "description": "Especificación del fondo de Sonolus"
+  "title": "Especificaciones del fondo",
+  "description": "Especificación del fondo de Sonolus",
+  "backgroundSpecs": "Especificaciones del fondo",
+  "resources": "Recursos"
 }
