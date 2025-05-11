@@ -1,4 +1,7 @@
 {
-    "title": "Spesifikasi Replay",
-    "description": "Spesifikasi untuk replay Sonolus"
+  "title": "Spesifikasi Replay",
+  "description": "Spesifikasi untuk replay Sonolus",
+  "replaySpecs": "Spesifikasi Replay",
+  "resources": "Sumber daya",
+  "misc": "Lain-lain"
 }
