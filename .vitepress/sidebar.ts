@@ -151,6 +151,7 @@ export const sidebar = {
     },
     'custom-server-specs': {
         customServerSpecs: ['', '/overview', '/frameworks-and-tools'],
+        resources: ['/resources/server-banner'],
         endpoints: [
             '/endpoints/get-sonolus-info',
             '/endpoints/get-sonolus-type-info',

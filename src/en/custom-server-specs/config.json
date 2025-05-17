@@ -2,6 +2,7 @@
     "title": "Custom Server Specs",
     "description": "Specifications for Sonolus custom servers",
     "customServerSpecs": "Custom Server Specs",
+    "resources": "Resources",
     "endpoints": "Endpoints",
     "headers": "Headers",
     "queryParameters": "Query Parameters",
