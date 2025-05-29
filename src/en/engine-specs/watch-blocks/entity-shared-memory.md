@@ -31,4 +31,4 @@ const EntitySharedMemoryId = 4002
 
 Entity Shared Memory is simply a view into Entity Shared Memory Array.
 
-For entities spawned by `Spawn` function call, it does not have any data and cannot access this block.
+For entities spawned by `Spawn` function call, it does not have any shared memory and cannot access this block.

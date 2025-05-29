@@ -34,4 +34,4 @@ const EntityInputId = 4005
 
 When an entity is despawned, values of Entity Input block will be used by Sonolus to process judgment, combo, life, score, etc.
 
-For entities spawned by `Spawn` function call, it does not have any data and cannot access this block.
+For entities spawned by `Spawn` function call, it does not have any input and cannot access this block.

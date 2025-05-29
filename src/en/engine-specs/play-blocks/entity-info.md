@@ -33,4 +33,4 @@ const EntityInfoId = 4003
 
 Entity Info is simply a view into Entity Info Array.
 
-For entities spawned by `Spawn` function call, it does not have any data and cannot access this block.
+For entities spawned by `Spawn` function call, it does not have any info and cannot access this block.

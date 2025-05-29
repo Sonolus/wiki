@@ -31,4 +31,4 @@ const EntityInputId = 4004
 
 ## Remarks
 
-For entities spawned by `Spawn` function call, it does not have any data and cannot access this block.
+For entities spawned by `Spawn` function call, it does not have input data and cannot access this block.
