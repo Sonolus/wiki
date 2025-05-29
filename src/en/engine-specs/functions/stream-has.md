@@ -1,4 +1,4 @@
-# `StreamGetValue`
+# `StreamHas`
 
 Check if key exists in stream.
 
