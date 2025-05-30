@@ -39,10 +39,15 @@ type ReplayData = {
         x: number[]
         y: number[]
     }
+    streams?: {
+        id: number
+        keys: number[]
+        values: number[]
+    }[]
 }
 ```
 
-### `inputs.entityIndex`, `inputs.time`, `touches.t`, `touches.x`, and `touches.y`
+### `inputs.entityIndex`, `inputs.time`, `touches.t`, `touches.x`, `touches.y`, `streams.keys`, and `streams.values`
 
 Values are delta encoded.
 

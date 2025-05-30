@@ -6,6 +6,7 @@ export const sidebar = {
     'release-notes': {
         releaseNotes: [''],
         versions: [
+            '/versions/0.9.0',
             '/versions/0.8.13_1',
             '/versions/0.8.13',
             '/versions/0.8.12',
@@ -672,6 +673,11 @@ export const sidebar = {
             '/functions/stack-set-pointer',
             '/functions/stop-looped',
             '/functions/stop-looped-scheduled',
+            '/functions/stream-get-next-key',
+            '/functions/stream-get-previous-key',
+            '/functions/stream-get-value',
+            '/functions/stream-has',
+            '/functions/stream-set',
             '/functions/subtract',
             '/functions/switch',
             '/functions/switch-integer',
