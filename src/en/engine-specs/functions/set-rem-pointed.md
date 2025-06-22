@@ -17,4 +17,4 @@ Value.
 
 ## Remarks
 
-Equivalent to: `Set(Get(id, index), Get(id, index) + offset, Rem(Get(Get(id, index), Get(id, index) + offset), value))`.
+Equivalent to: `Set(Get(id, index), Get(id, index + 1) + offset, Rem(Get(Get(id, index), Get(id, index + 1) + offset), value))`.
