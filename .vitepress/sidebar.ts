@@ -6,6 +6,7 @@ export const sidebar = {
     'release-notes': {
         releaseNotes: [''],
         versions: [
+            '/versions/0.9.1',
             '/versions/0.9.0_1',
             '/versions/0.9.0',
             '/versions/0.8.13_1',
@@ -193,6 +194,7 @@ export const sidebar = {
         misc: [
             '/misc/deep-links-and-share-links',
             '/misc/external-authentication',
+            '/misc/user-avatar',
             '/misc/resources',
             '/misc/srl',
             '/misc/sil',
