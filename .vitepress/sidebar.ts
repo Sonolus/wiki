@@ -193,6 +193,7 @@ export const sidebar = {
         misc: [
             '/misc/deep-links-and-share-links',
             '/misc/external-authentication',
+            '/misc/user-avatar',
             '/misc/resources',
             '/misc/srl',
             '/misc/sil',
