@@ -1,8 +1,20 @@
 {
-    "name": "Tiếng Việt (Vietnamese)",
-    "lang": "vi",
-    "title": "Sonolus Wiki",
-    "description": "Kho tàng lưu giữ tất cả thông tin về Sonolus",
-    "player": "Người chơi",
-    "developer": "Nhà phát triển"
+  "name": "Tiếng Việt (Vietnamese)",
+  "lang": "vi",
+  "title": "Sonolus Wiki",
+  "description": "Kho lưu trữ tất cả thông tin về Sonolus",
+  "search": "Tìm kiếm",
+  "searchNoResults": "Không có kết quả cho",
+  "searchNavigate": "để điều hướng",
+  "searchSelect": "để lựa chọn",
+  "searchClose": "để đóng lại",
+  "theme": "Chủ đề",
+  "lightTheme": "Sáng",
+  "darkTheme": "Tối",
+  "menu": "Menu",
+  "onThisPage": "Trên trang này",
+  "previousPage": "Trang trước",
+  "nextPage": "Trang tiếp theo",
+  "player": "Người chơi",
+  "developer": "Nhà phát triển"
 }
