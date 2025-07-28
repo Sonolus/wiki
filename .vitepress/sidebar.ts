@@ -1,7 +1,21 @@
 export const sidebar = {
     'getting-started': {
         gettingStarted: [''],
-        installing: ['/installing/android', '/installing/ios'],
+        explore: [
+            '/explore/install',
+            '/explore/custom-servers',
+            '/explore/collections',
+            '/explore/level-configuration',
+            '/explore/modes',
+            '/explore/result-screen',
+            '/explore/account',
+            '/explore/settings',
+        ],
+        advanced: [
+            '/advanced/offsets',
+            '/advanced/create-levels',
+            '/advanced/create-skins-backgrounds-sfx-and-particles',
+        ],
     },
     'release-notes': {
         releaseNotes: [''],
