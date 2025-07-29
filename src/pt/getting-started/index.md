@@ -4,5 +4,5 @@ Guia para começar a usar o Sonolus.
 
 Este guia inclui:
 
-- Explore features of Sonolus.
-- Advanced usages of Sonolus.
+- Explorar funções do Sonolus.
+- Usos avançados do Sonolus.
