@@ -1,5 +1,7 @@
 {
-    "title": "시작하기",
-    "description": "Sonolus 시작하기",
-    "gettingStarted": "시작하기"
+  "title": "시작하기",
+  "description": "Sonolus 시작하기",
+  "gettingStarted": "시작하기",
+  "explore": "탐험",
+  "advanced": "고급"
 }
