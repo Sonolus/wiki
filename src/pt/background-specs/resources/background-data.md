@@ -12,7 +12,7 @@ Recurso JSON.
 
 ```ts
 type BackgroundData = {
-    aspectRatio: number
+    aspectRatio?: number
     fit: 'width' | 'height' | 'contain' | 'cover'
     color: string
 }
@@ -20,7 +20,9 @@ type BackgroundData = {
 
 ### `aspectRatio`
 
-Proporção da imagem de fundo.
+Proporção de aspecto opcional da imagem de fundo.
+
+Se presente, a imagem de fundo será forçada para a proporção de aspecto específica em vez da proporção de aspecto natural.
 
 ### `fit`
 

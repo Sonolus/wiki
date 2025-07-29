@@ -2,6 +2,7 @@
   "title": "Especificações do servidor personalizado",
   "description": "Especificações para servidores personalizados Sonolus ",
   "customServerSpecs": "Especificações do servidor personalizado",
+  "resources": "Recursos",
   "endpoints": "Pontos finais ",
   "headers": "Cabeçalhos ",
   "queryParameters": "Parâmetros de consulta ",
