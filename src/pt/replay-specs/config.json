@@ -1,3 +1,7 @@
 {
-  "title": "Especificações do Replay"
+  "title": "Especificações do Replay",
+  "description": "Especificações para replays Sonolus",
+  "replaySpecs": "Especificações de repetição",
+  "resources": "Recursos",
+  "misc": "Diversos"
 }
