@@ -1,4 +1,9 @@
 {
-    "title": "Guía de Sonolus.js",
-    "description": "Guía para desarrollar motores usando Sonolus.js"
+  "title": "Guía de Sonolus.js",
+  "description": "Guía para desarrollar motores usando Sonolus.js",
+  "sonolusJsGuide": "Guía de Sonolus.js",
+  "play": "Jugar",
+  "watch": "Ver",
+  "preview": "Previsualizar",
+  "tutorial": "Tutorial"
 }
