@@ -1,0 +1,9 @@
+{
+  "title": "Especificações do servidor multijogador da rodada",
+  "description": "Especificações para servidores multijogador Sonolus rodada",
+  "roundMultiplayerServerSpecs": "Especificações do servidor multijogador da rodada",
+  "state": "Estado",
+  "misc": "Diversos",
+  "events": "Eventos",
+  "commands": "Comandos"
+}
