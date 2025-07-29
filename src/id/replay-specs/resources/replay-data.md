@@ -49,7 +49,7 @@ type ReplayData = {
 
 ### `inputs.entityIndex`, `inputs.time`, `touches.t`, `touches.x`, `touches.y`, `streams.keys`, dan `streams.values`
 
-Values are delta encoded.
+Nilai dikodekan delta.
 
 ## Contoh
 
