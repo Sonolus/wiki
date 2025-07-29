@@ -1,21 +1,21 @@
 # Configurações
 
-Settings contains global options for Sonolus.
+Configurações contém opções globais para o Sonolus.
 
-There are a lot of options available, this page only shows some of them.
+Há muitas opções disponíveis, esta página mostra apenas algumas delas.
 
 ## Gráficos
 
-Graphics section contains options related to graphics.
+A seção Gráficos contém opções relacionadas a gráficos.
 
-Some of these options may have huge performance impacts. If you are experiencing performance issues such as low FPS or stutter, consider checking these options and resetting them to default.
+Algumas dessas opções podem ter impactos significativos no desempenho. Se você estiver enfrentando problemas de desempenho, como FPS baixo ou travamentos, considere verificar essas opções e redefini-las para os padrões.
 
-## Gameplay
+## Jogabilidade
 
-Auto exit can be used to stop the level early when a grade is no longer achievable.
+A saída automática pode ser usada para interromper o nível mais cedo quando uma nota não for mais possível de ser alcançada.
 
 ## UI
 
-Judgment colors, judgment error colors, and combo colors can be customized to make them easier to differentiate.
+Cores de julgamento, cores de erro de julgamento e cores combinadas podem ser personalizadas para torná-las mais fáceis de diferenciar.
 
-You can hide judgments such as Perfect by making them transparent.
+Você pode ocultar julgamentos como Perfeito tornando-os transparentes.
