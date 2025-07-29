@@ -1,10 +1,10 @@
 # Textura da pele
 
-Skin texture is used by Sonolus app as the texture of the skin.
+A textura da pele é usada pelo aplicativo Sonolus como a textura da pele.
 
-## Resource Type
+## Tipo de recurso
 
-Image resource.
+Recurso de imagem.
 
 `.png` é o formato recomendado.
 
