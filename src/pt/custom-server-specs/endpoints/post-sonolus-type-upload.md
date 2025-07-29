@@ -1,45 +1,45 @@
 # `POST /sonolus/{type}/upload`
 
-`/sonolus/{type}/upload` allows Sonolus app to upload files when creating an item.
+`/sonolus/{type}/upload` permite que o aplicativo Sonolus carregue arquivos ao criar um item.
 
-## URL Parameters
+## Parâmetros de URL
 
-URL Parameter | Value | Description
+Parâmetro de URL | Valor | Descrição
 :-- | :-- | :--
 `type` | `string` | `posts`, `playlists`, `levels`, `skins`, `backgrounds`, `effects`, `particles`, `engines`, ou `replays`.
 
-## Query Parameters
+## Parâmetros de consulta
 
-Query Parameter | Value | Description
+Parâmetro de consulta | Valor | Descrição
 :-- | :-- | :--
-`localization` | `string` | See [`localization`](../query-parameters/localization).
-Configuration Options | `any` | See [Options Query Parameters](../query-parameters/options-query-parameters).
+`localization` | `string` | Veja [`localization`](../query-parameters/localization) .
+Opções de configuração | `any` | Consulte [Parâmetros de consulta de opções](../query-parameters/options-query-parameters) .
 
-## Request Headers
+## Cabeçalhos de solicitação
 
-Header | Value | Description
+Cabeçalho | Valor | Descrição
 :-- | :-- | :--
-`Sonolus-Session` | `string` | Optional, see [`Sonolus-Session`](../headers/sonolus-session).
-`Sonolus-Upload-Key` | `string` | See [`POST /sonolus/{type}/create`](./post-sonolus-type-create).
+`Sonolus-Session` | `string` | Opcional, veja [`Sonolus-Session`](../headers/sonolus-session) .
+`Sonolus-Upload-Key` | `string` | Veja [`POST /sonolus/{type}/create`](./post-sonolus-type-create) .
 
-## Request Body
+## Corpo da solicitação
 
-`multipart/form-data` encoded data with `files` field.
+`multipart/form-data` data com campo `files` .
 
-## Response Code
+## Código de resposta
 
-Code | Description
+Código | Descrição
 :-- | :--
 `200 OK` |
-`401 Unauthorized` | Authentication required or expired.
+`401 Unauthorized` | Autenticação necessária ou expirada.
 
-## Response Headers
+## Cabeçalhos de resposta
 
-Header | Value | Descrição
+Cabeçalho | Valor | Descrição
 :-- | :-- | :--
-`Sonolus-Version` | `string` | Optional, see [`Sonolus-Version`](../headers/sonolus-version).
+`Sonolus-Version` | `string` | Opcional, veja [`Sonolus-Version`](../headers/sonolus-version) .
 
-## Response Body
+## Corpo de Resposta
 
 ```ts
 type ServerUploadItemResponse = {
