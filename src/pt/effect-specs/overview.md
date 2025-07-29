@@ -1,13 +1,13 @@
 # Visão geral
 
-An overview of Sonolus effects.
+Uma visão geral dos efeitos do Sonolus.
 
 ## Clipes e áudio
 
-A Sonolus effect contains named clips, which are packaged into an audio resource.
+Um efeito Sonolus contém clipes nomeados, que são empacotados em um recurso de áudio.
 
-Effect data contains information about each clip and where to locate it in the audio resource.
+Os dados de efeito contêm informações sobre cada clipe e onde localizá-lo no recurso de áudio.
 
 ## Importação de engine
 
-Engines can import clips from an effect using their names.
+As engines podem importar clipes de um efeito usando seus nomes.
