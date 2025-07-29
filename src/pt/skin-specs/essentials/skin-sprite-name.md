@@ -6,7 +6,7 @@ Esse requisito permite que as skins sejam utilizáveis em diferentes engines e q
 
 ## Nomes padronizados
 
-Name | Redimensionamento
+Nome | Redimensionamento
 --- | ---
 `#NOTE_HEAD_NEUTRAL` |
 `#NOTE_HEAD_RED` |
