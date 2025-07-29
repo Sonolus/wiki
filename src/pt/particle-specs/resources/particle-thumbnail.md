@@ -1,15 +1,15 @@
 # Thumbnail de Partícula
 
-Particle thumbnail is used by Sonolus app as thumbnail image in various interfaces.
+A miniatura de partículas é usada pelo aplicativo Sonolus como imagem em miniatura em várias interfaces.
 
-## Resource Type
+## Tipo de recurso
 
 Recurso de imagem.
 
 `.png` é o formato recomendado.
 
-## Remarks
+## Observações
 
-An aspect ratio of 1:1 is expected.
+É esperada uma proporção de 1:1.
 
-It is recommended to keep file small in size to improve loading speed.
+É recomendável manter o arquivo pequeno para melhorar a velocidade de carregamento.
