@@ -20,9 +20,9 @@ type BackgroundData = {
 
 ### `aspectRatio`
 
-Optional aspect ratio of the background image.
+Proporção de aspecto opcional da imagem de fundo.
 
-If present, background image will be forced to the specified aspect ratio instead of the natural aspect ratio.
+Se presente, a imagem de fundo será forçada para a proporção de aspecto específica em vez da proporção de aspecto natural.
 
 ### `fit`
 
