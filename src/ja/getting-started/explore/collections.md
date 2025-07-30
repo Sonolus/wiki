@@ -1,17 +1,17 @@
-# Collections
+# コレクション
 
-Collections allow you to save contents offline.
+コレクションを使用すると、コンテンツをオフラインで保存できます。
 
-## Save to Collections
+## コレクションに保存
 
-After you enter a level, you can click "Save" button to save it to a collection. Once saved, the level is now accessible offline.
+レベルに入った後、「保存」ボタンをクリックしてコレクションに保存できます。保存すると、レベルはオフラインでアクセスできるようになります。
 
-Instead of trying to save everything to play offline, it is recommended that you simply play and have fun, and save as you go!
+すべてを保存してオフラインでプレイしようとするのではなく、プレイして楽しかったレベルを保存していく、というのが良いでしょう。
 
-## Import and Export
+## インポートとエクスポート
 
-Collections can be exported as `.scp` files, and imported back. You can save these files as a way to backup your collections or share them with friends.
+コレクションは `.scp` ファイルとしてエクスポートし、インポートして戻すことができます。これらのファイルを保存して、コレクションをバックアップしたり、友達と共有したりできます。
 
-To export a collection, enter the collection and click "Export" button.
+コレクションをエクスポートするには、コレクションの画面を開き、「エクスポート」ボタンをタップします。
 
-To import a collection, click "Import" button.
+コレクションをインポートするには、「インポート」ボタンをタップします。

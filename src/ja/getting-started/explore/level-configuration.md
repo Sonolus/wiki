@@ -1,23 +1,23 @@
-# Level Configuration
+# レベル設定
 
-Unlike other rhythm games, Sonolus can play many different engines, so options such as note speed are in level configuration, rather than settings.
+他のリズムゲームとは異なり、Sonolusはさまざまなエンジンをプレイできるため、ノーツの速度などのオプションはアプリの設定ではなく、レベル設定にあります。
 
-To access level configuration, first enter a level, and click "Configuration" button.
+レベル設定にアクセスするには、まずレベルに入り、「設定」ボタンをタップします。
 
-## Engine
+## エンジン
 
-In engine section, you can change the skin, background, SFX, and particle to use when playing.
+エンジンセクションでは、プレイ時に使用するスキン、背景、効果音、およびパーティクルを変更できます。
 
-You can not only select skins, backgrounds, SFX, and particles from the same custom server, but also from other custom servers and collections.
+同じカスタムサーバーからだけでなく、他のカスタムサーバーやコレクションからもスキン、背景、効果音、およびパーティクルを選択できます。
 
-## Options
+## オプション
 
-Options section contains options such as note speed.
+オプションセクションには、ノーツの速度などのオプションが含まれています。
 
-Most options are shared across all levels of the same engine, so you don't have to change them every time.
+ほとんどのオプションは、同じエンジンのすべてのレベルで共有されるため、毎回変更する必要はありません。
 
 ## UI
 
-UI section allows you to customize UI during gameplay.
+UIセクションでは、ゲームプレイ中のUIをカスタマイズできます。
 
-You can change primary and secondary metric to metrics that you care about more. You can change judgment error style for better readability. You can change the style of various UI elements to make them more visible or less distracting.
+メインステータス、およびサブステータスを、より関心のあるステータスに変更できます。読みやすくするために、Early/Lateのスタイルを変更できます。さまざまなUI要素のスタイルを変更して、より見やすくしたり、邪魔にならないようにしたりできます。

@@ -1,51 +1,51 @@
-# Offsets
+# オフセット
 
-Offsets help synchronizing graphics, audio, and input.
+オフセットは、グラフィック、オーディオ、および入力のズレを補正できます。
 
-For most players, 0 is the correct offset to use and should not be adjusted.
+ほとんどのプレイヤーにとっては、0が正しいオフセットであり、調整する必要はありません。
 
-## Device Audio Offset
+## デバイス音オフセット
 
-Device audio offset helps synchronizing graphics with audio, and it applies globally.
+デバイス音オフセットは、画面と音声を同期させるのに役立ち、そして全体に適用されます。
 
-To adjust device audio offset:
+デバイス音オフセットを調整するには：
 
--   Select a level that is properly synchronized.
--   Use watch mode.
--   Observe if graphics and audio are synchronized. For example when a note reaches the judgment line, the corresponding music and SFX also play at the same time.
--   If they are not synchronized, adjust device audio offset accordingly.
+- 音ズレのないレベルを選択します。
+- 閲覧モードを使用します。
+- 画面と音声が同期しているかどうかを観察します。たとえば、ノーツが判定ラインに到達したときに、対応する音楽と効果音も同時に再生されるかを確認します。
+- 同期されていない場合は、それに応じてデバイス音オフセットを調整します。
 
-## SFX
+## 効果音
 
-If your graphics and audio are properly synchronized in watch mode, but in play mode your SFX has a significant delay, then the issue is that your device cannot play SFX quickly. Sonolus already plays SFX as soon as possible.
+閲覧モードで画面と音声が適切に同期されているにもかかわらず、プレイモードで効果音に著しい遅延がある場合、それはデバイスがSFXを素早く再生できないことが原因です。Sonolusは常に効果音を可能な限り早く再生しています。
 
-If you are using bluetooth headphones, they can introduce significant delay and are not recommended. Consider playing with speaker or wired headphones.
+Bluetooth接続でイヤホンやヘッドホンを使用している場合、著しい遅延が発生する可能性があるため、推奨されません。スピーカー、有線ヘッドホン、有線イヤホンでのプレイを検討してください。
 
-If you are on Android and SFX delay only starts happening recently, restarting your device can help by ensuring other apps are no longer taking up audio resources.
+Androidを使用しており、効果音の遅延が最近になって発生し始めた場合は、デバイスを再起動してみてください。他のアプリが音声のシステムを占有しなくなるため、改善される可能性があります。
 
-If the above do not fix the issue, you can turn off SFX or turn on Auto SFX in level configuration.
+上記で問題が解決しない場合は、レベル設定で効果音をオフにするか、自動SEをオンにしてみてください。
 
-## Level and Server Audio Offsets
+## レベルおよびサーバー音オフセット
 
-Level and server audio offsets apply to only a particular level, or all levels in a particular server.
+レベルおよびサーバー音オフセットは、特定のレベル、または特定のサーバー内のすべてのレベルにのみ適用されます。
 
-These options are only useful when a particular level or all levels in a particular server are poorly synchronized, and should not be used otherwise.
+これらのオプションは、特定のレベルまたは特定のサーバー内のすべてのレベルが音ズレしている場合にのみ役立ち、それ以外の場合は使用すべきではありません。
 
-## Device Input Offset
+## デバイス入力オフセット
 
-Device input offset helps synchronizing graphics with input, and it applies globally.
+デバイス入力オフセットは、グラフィックと入力の同期を助け、グローバルに適用されます。
 
-Before adjusting device input offset, you should determine whether your input issues are truly due to offset or not. If you mainly play another rhythm game and are used to it, it is common that many rhythm games have judgment delay due to them judging you by frame time, and you may have developed a habit of inputting early to compensate for this delay. Sonolus instead judges you fairly by using hardware time, and with the habit of inputting early you would receive many early judgments. It is recommended that you use replay to determine if you are receiving early judgments due to this habit, and if so consider correcting the habit rather than changing device input offset.
+デバイス入力オフセットを調整する前に、入力の問題が本当にオフセットによるものかどうかを判断する必要があります。主に他のリズムゲームをプレイしていてそれに慣れている場合、多くのリズムゲームはフレーム時間で判定するため、判定に遅延があり、この遅延を補うために早く入力する癖がついていることがよくあります。Sonolusは代わりにハードウェア時間を使用して公平に判定するため、早く入力する癖があると多くのEarly判定を受けることになります。この癖が原因でEarly判定を受けているかどうかを判断してからこの設定を変更することをお勧めします。判定にはリプレイを使うと便利です。もしこの癖が原因である場合は、その癖を直すことをお勧めします。
 
-To adjust device input offset:
+デバイス入力オフセットを調整するには：
 
--   Select a level that you are comfortable playing.
--   Use play mode.
--   At result screen, scroll down and click into accuracy graph.
--   Add mean value to your current device input offset. For example if the mean value is 20, then add 20 to your current device input offset.
+- 快適にプレイできるレベルを選択します。
+- プレイモードを使用します。
+- リザルト画面で下にスクロールし、精度グラフをクリックします。
+- 平均値を現在のデバイス入力オフセットに追加します。たとえば、平均値が20の場合、現在のデバイス入力オフセットに20を追加します。
 
-## Engine Input Offset
+## エンジン入力オフセット
 
-Engine input offset applies to only a particular engine.
+エンジン入力オフセットは、特定のエンジンにのみ適用されます。
 
-This option is only useful when you have trouble playing with a particular engine, and should not be used otherwise.
+このオプションは、特定のエンジンでプレイに問題がある場合にのみ役立ち、それ以外の場合は使用すべきではありません。

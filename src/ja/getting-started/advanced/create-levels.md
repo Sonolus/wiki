@@ -1,5 +1,5 @@
-# Create Levels
+# レベルの作成
 
-You can create your own levels. Some custom servers allow sharing your created levels.
+独自のレベルを作成できます。一部のカスタムサーバーでは、作成したレベルを共有できます。
 
-Instructions of how to create levels can usually be found in Posts section or on the website of each custom server. Follow the instructions to create your own levels and share it with others!
+レベルの作成方法については、通常、各カスタムサーバーの投稿セクションまたはウェブサイトで確認できます。独自のレベルを作成し、他の人と共有しましょう！

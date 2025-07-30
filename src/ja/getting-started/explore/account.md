@@ -1,13 +1,13 @@
-# Account
+# アカウント
 
-A Sonolus account enables more features such as interacting with others in custom servers, playing multiplayer, buying items in shop, and more.
+Sonolusアカウントを使用すると、カスタムサーバーで他のユーザーと交流したり、マルチプレイヤーでプレイしたり、ショップでアイテムを購入したりするなど、より多くの機能が有効になります。
 
-## Sign in
+## サインイン
 
-You can click "Sign in with Apple", "Sign in with Google", or "Sign in with WeChat" (only available when you have WeChat installed) to create a Sonolus account.
+「Appleでサインイン」、「Googleでサインイン」、または「WeChatでサインイン」（WeChatがインストールされている場合のみ利用可能）をクリックして、Sonolusアカウントを作成できます。
 
-## Profile
+## プロフィール
 
-You can customize your profile name, avatar, banner, about me, and favorites.
+プロフィール名、アバター、バナー、自己紹介、お気に入りをカスタマイズできます。
 
-Other players will be able to see your profile when interacting with you in custom servers and multiplayer.
+他のプレイヤーは、カスタムサーバーやマルチプレイヤーであなたと交流するときに、あなたのプロフィールを見ることができます。

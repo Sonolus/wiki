@@ -1,21 +1,21 @@
-# Settings
+# 全体設定
 
-Settings contains global options for Sonolus.
+全体設定には、Sonolus全体の設定が含まれています。
 
-There are a lot of options available, this page only shows some of them.
+多くのオプションが存在しますが、このページではその一部のみを紹介します。
 
-## Graphics
+## グラフィック
 
-Graphics section contains options related to graphics.
+グラフィックセクションには、グラフィックに関連するオプションが含まれています。
 
-Some of these options may have huge performance impacts. If you are experiencing performance issues such as low FPS or stutter, consider checking these options and resetting them to default.
+これらのオプションの中には、パフォーマンスに大きな影響を与えるものがあります。FPSの低下やカクつきなどのパフォーマンスの問題が発生している場合は、これらのオプションを確認し、デフォルトにリセットしてみてください。
 
-## Gameplay
+## ゲームプレイ
 
-Auto exit can be used to stop the level early when a grade is no longer achievable.
+自動終了を使用すると、特定の結果（例：All Perfect、Full Comboなど）が達成できなくなったときにレベルを自動的に終了させることができます。
 
 ## UI
 
-Judgment colors, judgment error colors, and combo colors can be customized to make them easier to differentiate.
+判定の色、Early/Lateの色、コンボの色をカスタマイズして、見分けやすくすることができます。
 
-You can hide judgments such as Perfect by making them transparent.
+Perfectなどの判定を透明にすることで非表示にすることもできます。

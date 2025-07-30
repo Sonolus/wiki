@@ -1,27 +1,27 @@
-# Modes
+# モード
 
-Levels have play, watch, preview, and tutorial mode.
+レベルには、プレイ、閲覧、プレビュー、チュートリアルのモードがあります。
 
-## Play Mode
+## プレイモード
 
-Exactly as you would expect, play the level and have fun!
+ご想像のとおり、レベルをプレイして楽しんでください！
 
-## Watch Mode
+## 閲覧モード
 
-You can watch the level on auto play like a video.
+譜面確認動画のように自動再生でレベルを見ることができます。
 
-You can navigate around the level using the progress bar, and toggle the progress bar for precise control up to 1 millisecond increments.
+シークバーを使ってレベル内を移動したり、シークバーを切り替えて1ミリ秒単位の正確なコントロールができます。
 
-While the UI is hidden, you can tap along the video to practice.
+UIが非表示の間は、動画に合わせてタップして練習することができます。
 
-## Preview Mode
+## プレビューモード
 
-Preview mode shows a flat image representation of the level.
+プレビューモードでは、レベルが平面の画像で表示されます。
 
-It's useful to get a quick overview of a level, or study patterns in a level.
+レベルの概要をすばやく把握したり、配置を研究したりするのに役立ちます。
 
-## Tutorial Mode
+## チュートリアルモード
 
-Tutorial gives you a tutorial of the engine.
+チュートリアルでは、エンジンのチュートリアルが提供されます。
 
-For first time playing a new engine, tutorial can give you a quick rundown of the game mechanics.
+初めて新しいエンジンをプレイする場合、チュートリアルでゲームの仕組みをすばやく理解することができます。

@@ -1,19 +1,19 @@
-# Create Skins, Backgrounds, SFX, and Particles
+# スキン、背景、効果音、パーティクルの作成
 
-You can create your own skins, backgrounds, SFX, and particles. Some custom servers allow sharing your created skins, backgrounds, SFX, and particles.
+独自のスキン、背景、効果音、パーティクルを作成できます。一部のカスタムサーバーでは、作成したスキン、背景、効果音、パーティクルを共有できます。
 
 ## Sonolus Studio
 
-You can use [Sonolus Studio](https://studio.sonolus.com) to create your own skins, backgrounds, SFX, and particles.
+[Sonolus Studio](https://studio.sonolus.com) を使用して、独自のスキン、背景、効果音、パーティクルを作成できます。
 
-However, it is difficult to create from scratch. Instead:
+ただし、ゼロから作成するのは困難です。以下の手順に従うと、より簡単に作成できます。
 
--   In Sonolus, create a collection.
--   Save a skin, background, SFX, or particle to the collection to use it as a base.
--   Export the collection.
--   In Sonolus Studio, open the exported collection `.scp` file.
--   Modify the base.
--   Save the project.
--   In Sonolus, import the project `.scp` file.
+- Sonolusでコレクションを作成します。
+- 改変元として使用するスキン、背景、効果音、またはパーティクルをコレクションに保存します。
+- コレクションをエクスポートします。
+- Sonolus Studioで、エクスポートしたコレクションの `.scp` ファイルを開きます。
+- 保存したものを改変します。
+- プロジェクトを保存します。
+- Sonolusで、プロジェクトの `.scp` ファイルをインポートします。
 
-Your newly created skin, background, SFX, or particle is now available in Sonolus to use or be shared with others!
+これでスキン、背景、効果音、パーティクルの作成が完了しました。新しく作成したものはSonolusで使用したり、他の人と共有したりできます！

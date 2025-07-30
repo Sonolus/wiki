@@ -1,27 +1,27 @@
-# Result Screen
+# リザルト画面
 
-At the end of a level, result screen gives a lot of useful information about the gameplay for you to improve.
+レベルの終了時、リザルト画面には上達に役立つ多くの情報が表示されます。
 
-You can scroll down the result screen further for more information.
+リザルト画面を下にスクロールすると、さらに詳しい情報を見ることができます。
 
-## Scores
+## スコア
 
-Your scores includes grade, arcade score, accuracy score, combo, as well as counts of Perfect, Great, Good, and Miss.
+スコアには、「結果」、「スコア」、「精度スコア」、「コンボ」、そしてPerfect、Great、Good、Missの数が含まれます。
 
-Arcade score usually gives Perfect, Great, and Good different score multipliers, as well as combo bonus. An All Perfect will result in 1,000,000 score.
+スコア：通常、Perfect、Great、Goodには異なるスコア倍率とコンボボーナスが設定されています。All Perfectを達成すると、スコアは1,000,000になります。
 
-Accuracy score is the average timing of all notes, with a max score of 1,000,000, and losing 1,000 score for each 1 milliseconds off on average. Accuracy score is an unbiased measure of player's skill.
+精度スコアは、すべてのノーツの平均タイミングであり、最大スコアは1,000,000です。平均して1ミリ秒ずれるごとに1,000点減点されます。精度スコアは、プレイヤーのスキルを公平に測定する指標です。
 
-## Replay
+## リプレイ
 
-You can click "Watch" to watch a replay of your gameplay just now, and analyze what you did wrong so you can improve. All the features of watch mode are available when watching replay, additionally with your finger placements recorded and visible.
+「閲覧」をクリックすると、今行ったゲームプレイのリプレイを見ることができ、どこが悪かったのかを分析して改善することができます。リプレイを見ている間は、閲覧モードのすべての機能が利用でき、さらにタップの位置も記録されて表示されます。
 
-You can also click "Create" to save it to collection to watch again later.
+また、「作成」をタップしてコレクションに保存し、後で再び見ることもできます。
 
-## Graphs
+## グラフ
 
-Various graphs of your result are available. You can click the graphs for a more detailed view.
+結果に関する様々なグラフが利用可能です。グラフをクリックすると、より詳細な表示になります。
 
-Judgment and accuracy graphs are useful to identify which segment of the level you need to improve.
+判定と精度のグラフは、レベルのどの部分を改善する必要があるかを特定するのに役立ちます。
 
-Bucket graphs show your results for each type of note and are useful to identity which note types you need to improve.
+バケットグラフは、ノーツの種類ごとの結果を示し、どの種類のノーツを改善する必要があるかを特定するのに役立ちます。

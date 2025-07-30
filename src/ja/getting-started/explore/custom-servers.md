@@ -1,17 +1,17 @@
-# Custom Servers
+# カスタムサーバー
 
-Custom servers are where online contents are shared in Sonolus.
+カスタムサーバーでは、Sonolusの様々なコンテンツが配信されています。
 
-Anyone can create and host their own custom servers, so there is no official list of all existing custom servers. Sonolus comes with three official servers you can play on right away.
+誰でも独自のカスタムサーバーを作成してホストできるため、既存のすべてのカスタムサーバーの公式リストはありません。Sonolusには、すぐにプレイできる3つの公式サーバーが付属しています。
 
-## Contents
+## コンテンツ
 
-Custom servers can offer different contents, such as "Posts" where you can interact with other players, "Levels" where you can play solo, "Multiplayer" where you can play together with other players, "Replays" where you can watch other players' gameplay, and more.
+カスタムサーバーは、「投稿」で他のプレイヤーと交流したり、「レベル」でソロでプレイしたり、「マルチプレイ」で他のプレイヤーと一緒にプレイしたり、「リプレイ」で他のプレイヤーのゲームプレイを見たりするなど、さまざまなコンテンツを提供しています。
 
-After entering a custom server, different available contents are listed where you can explore.
+カスタムサーバーに入ると、そのサーバーで利用可能なコンテンツが一覧表示されます。
 
-## Adding Custom Servers
+## カスタムサーバーの追加
 
-If you find a Sonolus custom server online and you would like to add, usually there is an "Open in Sonolus" button on their website and clicking the button should open the custom server in Sonolus. You can click "Save" in Sonolus to save the custom server for future visits.
+Sonolusのカスタムサーバーを見つけ、そしてそれを追加したい場合は、基本的にはそのウェブサイトに「Sonolusで開く」ボタンがあり、そのボタンをクリックするとSonolusでカスタムサーバーが開きます。Sonolusで「保存」をクリックすると、サーバーがサーバーリストに追加され、後からそのサーバーに簡単にアクセスできるようになります。
 
-Alternatively, you can click "Add" in Sonolus and paste the custom server URL to add it directly.
+または、Sonolusで「追加」をクリックし、カスタムサーバーのURLを貼り付けて直接追加することもできます。
