@@ -1,6 +1,6 @@
 # Configuration du Niveau
 
-Contrairement à d'autres jeux de rythme, Sonolus peut-être jouer avec de nombreux différents moteurs, donc les options telles que la vitesse des notes sont dans la configuration du niveau, plutôt que dans les réglages de Sonolus.
+Contrairement à d’autres jeux de rythme, Sonolus peut utiliser plusieurs moteurs différents. Ainsi, les options comme la vitesse des notes se trouvent dans la configuration du niveau, et non dans les paramètres de Sonolus.
 
 Pour accéder à la configuration du niveau, accédez d'abord à un niveau, puis cliquez sur le bouton "Configuration".
 
@@ -12,7 +12,7 @@ Vous pouvez non seulement sélectionner des skins, des arrière-plans, des effet
 
 ## Options
 
-La section options contient des options telles que la vitesse des notes.
+La section options contient les options telles que la vitesse des notes.
 
 La plupart des options sont partagées entre tous les niveaux du même moteur, vous n'avez donc pas besoin de les modifier à chaque fois.
 
