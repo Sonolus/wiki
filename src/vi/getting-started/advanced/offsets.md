@@ -37,15 +37,15 @@ Các tùy chọn này chỉ hữu ích khi một màn chơi cụ thể hoặc t�
 
 Trước khi điều chỉnh độ lệch đầu vào của thiết bị, bạn nên xác định xem các vấn đề đầu vào của mình có thực sự do độ lệch hay không. Nếu bạn chủ yếu chơi một trò chơi nhịp điệu khác và đã quen với nó, nhiều trò chơi nhịp điệu thường có độ trễ phán xét do chúng đánh giá bạn theo thời gian khung hình (FPS), và bạn có thể đã hình thành thói quen với độ trễ này. Thay vào đó, Sonolus sẽ đánh giá bạn một cách công bằng, bằng cách sử dụng thời gian phần cứng, và với thói quen của bạn, bạn sẽ nhận được nhiều phán xét sớm. Bạn nên sử dụng tính năng phát lại để xác định xem bạn có nhận được phán xét sớm hoặc do thói quen này hay không, và nếu có, hãy cân nhắc việc sửa thói quen này thay vì thay đổi độ lệch đầu vào của thiết bị.
 
-To adjust device input offset:
+Để điều chỉnh độ lệch đầu vào của thiết bị:
 
 - Chọn màn chơi mà bạn theo ý muốn.
-- Use play mode.
-- At result screen, scroll down and click into accuracy graph.
-- Add mean value to your current device input offset. For example if the mean value is 20, then add 20 to your current device input offset.
+- Sử dụng chế độ chơi.
+- Ở màn hình kết quả, cuộn xuống và nhấp vào biểu đồ độ chính xác.
+- Thêm giá trị trung bình vào độ lệch đầu vào thiết bị hiện tại của bạn. Ví dụ: nếu giá trị trung bình là 20, hãy thêm 20 vào độ lệch đầu vào thiết bị hiện tại của bạn.
 
 ## Độ lệch đầu vào Engine
 
 Độ lệch đầu vào của Engine chỉ áp dụng cho một engine cụ thể.
 
-This option is only useful when you have trouble playing with a particular engine, and should not be used otherwise.
+Tùy chọn này chỉ hữu ích khi bạn gặp sự cố khi chơi với một công cụ cụ thể và không nên sử dụng trong trường hợp khác.
