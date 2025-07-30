@@ -1,5 +1,7 @@
 {
-    "title": "はじめに",
-    "description": "Sonolusを遊び始めるには",
-    "gettingStarted": "はじめに"
+  "title": "はじめに",
+  "description": "Sonolusを遊び始めるには",
+  "gettingStarted": "はじめに",
+  "explore": "基本機能",
+  "advanced": "高度な機能"
 }
