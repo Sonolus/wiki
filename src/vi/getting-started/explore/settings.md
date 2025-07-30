@@ -16,6 +16,6 @@ Có thể sử dụng tính năng thoát tự động để dừng màn chơi s�
 
 ## Giáo diện (UI)
 
-Màu sắc phán xét, lỗi phán xét và kết hợp có thể được tùy chỉnh để dễ phân biệt hơn.
+Màu của hàng chữ judgment (bao gồm cả judgement error) và combo có thể được tùy chỉnh để dễ phân biệt hơn.
 
 Bạn có thể ẩn các phán xét như Perfect bằng cách làm cho chúng trở nên trong suốt.
