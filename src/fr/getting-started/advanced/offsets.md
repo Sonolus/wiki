@@ -6,13 +6,13 @@ Pour la plupart des joueurs, 0 est le décalage correct à utiliser et ne doit p
 
 ## Décalage Audio de l'Appareil
 
-Le décalage audio de l'appareil permet de synchroniser les graphiques avec l'audio et s'applique globalement.
+Le décalage audio de l'appareil permet de synchroniser les graphismes avec l'audio et s'applique globalement.
 
 Pour régler le décalage audio de l'appareil:
 
 - Sélectionnez un niveau correctement synchronisé.
 - Utiliser le mode visionner.
-- Vérifiez si les graphiques et l'audio sont synchronisés. Par exemple, lorsqu'une note atteint la ligne de jugement, la musique et les effets sonores correspondants doivent être joués simultanément.
+- Vérifiez si les graphismes et l'audio sont synchronisés. Par exemple, lorsqu'une note atteint la ligne de jugement, la musique et les effets sonores correspondants doivent être joués simultanément.
 - S'ils ne sont pas synchronisés, ajustez le décalage audio de l'appareil en conséquence.
 
 ## Effets Sonores

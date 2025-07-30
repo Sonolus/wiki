@@ -1,12 +1,12 @@
-# Réglages
+# Paramètres
 
-Les réglages contiennent les options globales de Sonolus.
+Les paramètres contiennent les options globales de Sonolus.
 
 Il existe de nombreuses options disponibles, cette page n'en montre que quelques-unes.
 
 ## Graphismes
 
-La section graphismes contient des options liées aux graphismes.
+La section graphismes contient les options liées aux graphismes.
 
 Certaines de ces options peuvent avoir un impact considérable sur les performances. Si vous rencontrez des problèmes de performances, tels qu'un faible taux d'image par seconde, pensez à vérifier ces options et à les réinitialiser à leurs valeurs par défaut.
 
