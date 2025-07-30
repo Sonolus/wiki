@@ -1,10 +1,10 @@
-# Tạo skin, hình nền (Background),âm thanh (SFX) và hiệu ứng Particles
+# Tạo skin, hình nền (Background), hiệu ứng âm thanh (SFX) và hiệu ứng Particles
 
-Bạn có thể tự tạo skin, hình nền (Background),âm thanh (SFX) và hiệu ứng Particles. Một số máy chủ tùy chỉnh cho phép chia sẻ skin, hình nền (Background), âm thanh (SFX) và hiệu ứng Particles do bạn tạo ra.
+Bạn có thể tự tạo skin, hình nền (Background), hiệu ứng âm thanh (SFX) và hiệu ứng Particles. Một số máy chủ tùy chỉnh cho phép chia sẻ skin, hình nền (Background), âm thanh (SFX) và hiệu ứng Particles do bạn tạo ra.
 
 ## Sonolus Studio
 
-Bạn có thể truy cập [Sonolus Studio](https://studio.sonolus.com) để tạo skin, hình nền (Background), âm thanh (SFX) và hiệu ứng Particles của riêng mình.
+Bạn có thể truy cập [Sonolus Studio](https://studio.sonolus.com) để tạo skin, hình nền (Background), hiệu ứng âm thanh (SFX) và hiệu ứng Particles của riêng mình.
 
 Tuy nhiên, nó rất khó để tạo cho những người lần đầu. Thay vào đó:
 
