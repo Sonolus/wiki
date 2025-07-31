@@ -1,5 +1,7 @@
 {
-    "title": "Начало работы",
-    "description": "Начало работы с Sonolus",
-    "gettingStarted": "Начало работы"
+  "title": "Начало работы",
+  "description": "Начало работы с Sonolus",
+  "gettingStarted": "Начало работы",
+  "explore": "Исследование",
+  "advanced": "Продвинутое"
 }
