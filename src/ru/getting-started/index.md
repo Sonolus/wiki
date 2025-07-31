@@ -4,5 +4,5 @@
 
 Эта инструкция включает в себя:
 
-- Explore features of Sonolus.
-- Advanced usages of Sonolus.
+- Исследование возможностей Sonolus'а.
+- Продвинутое использование Sonolus'а.
