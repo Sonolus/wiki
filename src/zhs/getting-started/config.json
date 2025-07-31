@@ -1,5 +1,7 @@
 {
-    "title": "新手入门",
-    "description": "Sonolus 新手入门指南",
-    "gettingStarted": "新手入门"
+  "title": "新手入门",
+  "description": "Sonolus 新手入门指南",
+  "gettingStarted": "新手入门",
+  "explore": "入门教程",
+  "advanced": "进阶指南"
 }
