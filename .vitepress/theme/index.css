@@ -77,3 +77,7 @@
     --vp-local-search-result-bg: var(--vp-c-surface);
     --vp-local-search-result-selected-bg: var(--vp-c-surface);
 }
+
+.VPSidebarItem > .item > .VPLink {
+    word-break: break-word;
+}
