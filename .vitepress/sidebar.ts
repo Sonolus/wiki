@@ -218,6 +218,7 @@ export const sidebar = {
             '/misc/server-item-community-comment',
             '/misc/server-item-leaderboard',
             '/misc/server-item-leaderboard-record',
+            '/misc/server-option',
             '/misc/server-message',
             '/misc/room-item',
             '/misc/post-item',
