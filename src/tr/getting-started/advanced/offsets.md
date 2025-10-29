@@ -17,35 +17,35 @@ Cihazın ses denge ayarını ayarlamak için:
 
 ## Ses Efekti
 
-If your graphics and audio are properly synchronized in watch mode, but in play mode your SFX has a significant delay, then the issue is that your device cannot play SFX quickly. Sonolus already plays SFX as soon as possible.
+Grafikleriniz ve sesiniz izleme modunda düzgün senkronize oluyorsa, ancak oynatma modunda ses efektlerinizde önemli bir gecikme varsa, sorun cihazınızın ses efektlerini hızlı bir şekilde oynatamamasıdır. Sonolus zaten ses efektlerini mümkün olan en kısa sürede oynatıyor.
 
-If you are using bluetooth headphones, they can introduce significant delay and are not recommended. Consider playing with speaker or wired headphones.
+Bluetooth kulaklık kullanıyorsanız, önemli bir gecikmeye neden olabilir ve önerilmez. Hoparlör veya kablolu kulaklıkla oynamayı düşünün.
 
-If you are on Android and SFX delay only starts happening recently, restarting your device can help by ensuring other apps are no longer taking up audio resources.
+Android kullanıyorsanız ve ses efektlerinde gecikme yakın zamanda meydana gelmeye başladıysa, cihazınızı yeniden başlatmak diğer uygulamaların artık ses kaynaklarını tüketmediğinden emin olmanıza yardımcı olabilir.
 
-If the above do not fix the issue, you can turn off SFX or turn on Auto SFX in level configuration.
+Yukarıdakiler sorunu çözmezse, seviye yapılandırmasında Ses Efektlerini kapatabilir veya Otomatik Ses Efektini açabilirsiniz.
 
-## Level and Server Audio Offsets
+## Seviye ve Sunucu Ses Dengeleri
 
-Level and server audio offsets apply to only a particular level, or all levels in a particular server.
+Seviye ve sunucu ses dengeleri yalnızca belirli bir seviyeye veya belirli bir sunucudaki tüm seviyelere uygulanır.
 
-These options are only useful when a particular level or all levels in a particular server are poorly synchronized, and should not be used otherwise.
+Bu seçenekler yalnızca belirli bir seviyenin veya belirli bir sunucudaki tüm seviyelerin senkronizasyonu zayıf olduğunda yararlıdır ve başka türlü kullanılmamalıdır.
 
-## Device Input Offset
+## Cihaz Giriş Dengesi
 
-Device input offset helps synchronizing graphics with input, and it applies globally.
+Cihaz giriş dengesi, grafiklerin girişle senkronize edilmesine yardımcı olur ve küresel olarak uygulanır.
 
-Before adjusting device input offset, you should determine whether your input issues are truly due to offset or not. If you mainly play another rhythm game and are used to it, it is common that many rhythm games have judgment delay due to them judging you by frame time, and you may have developed a habit of inputting early to compensate for this delay. Sonolus instead judges you fairly by using hardware time, and with the habit of inputting early you would receive many early judgments. It is recommended that you use replay to determine if you are receiving early judgments due to this habit, and if so consider correcting the habit rather than changing device input offset.
+Cihaz giriş dengesini ayarlamadan önce, girişle ilgili yaşadığınız sorunların gerçekten dengeden kaynaklanıp kaynaklanmadığını belirlemeniz gerekir. Eğer ağırlıklı olarak başka bir ritim oyunu oynuyorsanız ve o oyuna alıştıysanız, birçok ritim oyununun kare süresine göre yargılama yapması nedeniyle belirli bir yargılama gecikmesi bulunması yaygındır. Bu durumda, söz konusu gecikmeyi telafi etmek amacıyla zamanla erken girdide bulunma alışkanlığı geliştirmiş olabilirsiniz.<br>Sonolus, bunun aksine, girdileri donanım zamanına göre adil biçimde değerlendirir. Bu nedenle erken girdide bulunma alışkanlığınız varsa, Sonolus’ta çok sayıda erken yargı almanız olasıdır. Bu nedenle, oynanış kaydını kullanarak erken yargı alıp almadığınızı belirlemeniz önerilir. Eğer bu durumun alışkanlıktan kaynaklandığını fark ederseniz, cihaz giriş dengesini değiştirmek yerine söz konusu alışkanlığı düzeltmeniz tavsiye edilir.
 
-To adjust device input offset:
+Cihaz giriş dengesini ayarlamak için:
 
-- Select a level that you are comfortable playing.
-- Use play mode.
-- At result screen, scroll down and click into accuracy graph.
-- Add mean value to your current device input offset. For example if the mean value is 20, then add 20 to your current device input offset.
+- Rahatça oynayabildiğiniz bir seviye seçin.
+- Oynatma modunu kullanın.
+- Sonuç ekranında aşağı doğru ilerleyin ve doğruluk grafiğine tıklayın.
+- Mevcut cihaz giriş dengenize ortalama değer ekleyin. Örneğin, ortalama değer 20 ise, mevcut cihaz giriş dengenize 20 ekleyin.
 
-## Engine Input Offset
+## Motor Giriş Dengesi
 
-Engine input offset applies to only a particular engine.
+Motor giriş dengesi yalnızca belirli bir motora uygulanır.
 
-This option is only useful when you have trouble playing with a particular engine, and should not be used otherwise.
+Bu seçenek yalnızca belirli bir motorla oynamakta sorun yaşadığınızda işe yarar ve başka türlü kullanılmamalıdır.
