@@ -43,7 +43,7 @@ Unique name which identifies the level.
 
 Address of the source server.
 
-Providing a source allows Sonolus to update the item in collection and use the item in multiplayer.
+Providing a source allows Sonolus to update the item in collection, use the item in multiplayer, and submitting result.
 
 ### `UseItem<T>`
 
