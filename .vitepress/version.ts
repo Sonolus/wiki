@@ -1,4 +1,4 @@
 export const version = {
-    title: '1.0.1',
-    link: '1.0.1',
+    title: '1.0.2',
+    link: '1.0.2',
 }
