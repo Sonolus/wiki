@@ -6,7 +6,7 @@
 
 ```ts
 type Tag = {
-    title: Text | (string & {})
+    title?: Text | (string & {})
     icon?: Icon | (string & {})
 }
 ```
