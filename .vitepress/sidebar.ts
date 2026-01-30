@@ -571,6 +571,7 @@ export const sidebar = {
         functions: [
             '/functions/abs',
             '/functions/add',
+            '/functions/add-life-scheduled',
             '/functions/and',
             '/functions/arccos',
             '/functions/arcsin',
