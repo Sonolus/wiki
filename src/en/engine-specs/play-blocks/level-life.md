@@ -18,6 +18,8 @@ const LevelLifeId = 2005
 | 3     | 0             | Consecutive Great life step        |
 | 4     | 0             | Consecutive Good life increment    |
 | 5     | 0             | Consecutive Good life step         |
+| 6     | 1000          | Initial life                       |
+| 7     | 1000          | Max life                           |
 
 ## Access
 
