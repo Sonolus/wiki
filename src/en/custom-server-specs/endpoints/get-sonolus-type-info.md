@@ -13,6 +13,7 @@
 | Query Parameter       | Value    | Description                                                                   |
 | :-------------------- | :------- | :---------------------------------------------------------------------------- |
 | `localization`        | `string` | See [`localization`](../query-parameters/localization).                       |
+| `type`                | `string` | `infoType` when navigated from `ServerInfoItemButton`.                        |
 | Configuration Options | `any`    | See [Options Query Parameters](../query-parameters/options-query-parameters). |
 
 ## Request Headers
