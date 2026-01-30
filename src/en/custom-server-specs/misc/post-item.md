@@ -12,6 +12,7 @@ type PostItem = {
     title: string
     time: number
     author: string
+    authorUser?: UserItem
     tags: Tag[]
     thumbnail?: SRL
 }

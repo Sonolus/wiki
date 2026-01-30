@@ -10,6 +10,7 @@ type RoomItem = {
     title: string
     subtitle: string
     master: string
+    masterUser?: UserItem
     tags: Tag[]
     cover?: SRL
     bgm?: SRL

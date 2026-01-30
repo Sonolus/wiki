@@ -12,6 +12,7 @@ type BackgroundItem = {
     title: string
     subtitle: string
     author: string
+    authorUser?: UserItem
     tags: Tag[]
     thumbnail: SRL
     data: SRL
