@@ -232,6 +232,7 @@ export const sidebar = {
             '/misc/effect-item',
             '/misc/particle-item',
             '/misc/engine-item',
+            '/misc/user-item',
             '/misc/tag',
             '/misc/service-user-profile',
         ],
