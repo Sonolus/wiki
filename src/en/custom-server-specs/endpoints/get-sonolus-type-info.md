@@ -44,6 +44,7 @@ None.
 type ServerItemInfo = {
     creates?: ServerForm[]
     searches?: ServerForm[]
+    quickSearchValues?: string
     sections: ServerItemSection[]
     banner?: Srl
 }
