@@ -47,10 +47,18 @@ type ServerInfo = {
     banner?: Srl
 }
 
-type ServerInfoButton = {
+type ServerInfoButton =
+    | ServerInfoAuthenticationButton
+    | ServerInfoItemButton
+    | ServerInfoConfigurationButton
+
+type ServerInfoAuthenticationButton = {
+    type: 'authentication'
+}
+
+type ServerInfoItemButton = {
     type:
-        | 'authentication'
-        | 'multiplayer'
+        | 'room'
         | 'post'
         | 'playlist'
         | 'level'
@@ -60,13 +68,23 @@ type ServerInfoButton = {
         | 'effect'
         | 'particle'
         | 'engine'
+        | 'user'
         | 'configuration'
+    title?: Text | (string & {})
+    icon?: Icon | (string & {})
+    badgeCount?: number
+    infoType?: string
+    itemName?: string
 }
 
-type ServerConfiguration = {
-    options: ServerOption[]
+type ServerInfoConfigurationButton = {
+    type: 'configuration'
 }
 ```
+
+### `ServerInfoItemButton.itemName`
+
+If present, will navigate to the item directly.
 
 ### `configuration.options`
 

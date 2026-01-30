@@ -18,6 +18,7 @@ type EngineWatchDataArchetype = {
     imports: {
         name: EngineArchetypeDataName | (string & {})
         index: number
+        def?: number
     }[]
 }
 
@@ -33,9 +34,9 @@ Name of this archetype, which will be referenced by entities in level data.
 
 Special archetype names will have its effect applied automatically:
 
--   `#BPM_CHANGE`: Signals a BPM change and will affect BPM change related functions. Entity with this archetype must also provide data named `#BEAT` and `#BPM`.
+- `#BPM_CHANGE`: Signals a BPM change and will affect BPM change related functions. Entity with this archetype must also provide data named `#BEAT` and `#BPM`.
 
--   `#TIMESCALE_CHANGE`: Signals a time scale change and will affect time scale change related functions. Entity with this archetype must also provide data named `#BEAT` and `#TIMESCALE`.
+- `#TIMESCALE_CHANGE`: Signals a time scale change and will affect time scale change related functions. Entity with this archetype must also provide data named `#BEAT` and `#TIMESCALE`.
 
 ### `hasInput`
 
@@ -49,9 +50,9 @@ Imported data with matching `name` will be injected at `index` of Entity Data bl
 
 Special imported data names are available:
 
--   `#JUDGMENT`: When watching a replay, will be populated with replay's judgment values.
+- `#JUDGMENT`: When watching a replay, will be populated with replay's judgment values.
 
--   `#ACCURACY`: When watching a replay, will be populated with replay's accuracy values.
+- `#ACCURACY`: When watching a replay, will be populated with replay's accuracy values.
 
 ### `EngineWatchDataArchetypeCallback.index`
 

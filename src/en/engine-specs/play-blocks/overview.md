@@ -37,10 +37,15 @@ Blocks can be accessed using `Get` and `Set` functions.
 | Entity Info                |      ✔       |      ✔       |       ✔       |      ✔       |         ✔          |    ✔    |        ✔         |      ✔      |
 | Entity Despawn             |      ✔       |      ✔       |       ✔       |      ✔       |         ✔          |    ✔    |        ✔         |      ✔      |
 | Entity Input               |      ✔       |      ✔       |       ✔       |      ✔       |         ✔          |    ✔    |        ✔         |      ✔      |
+| Entity Score               |      ✔       |      ✔       |       ✔       |      ✔       |         ✔          |    ✔    |        ✔         |      ✔      |
+| Entity Life                |      ✔       |      ✔       |       ✔       |      ✔       |         ✔          |    ✔    |        ✔         |      ✔      |
 | Entity Data Array          |      ✔       |      ✔       |       ✔       |      ✔       |         ✔          |    ✔    |        ✔         |      ✔      |
 | Entity Shared Memory Array |      ✔       |      ✔       |       ✔       |      ✔       |         ✔          |    ✔    |        ✔         |      ✔      |
 | Entity Info Array          |      ✔       |      ✔       |       ✔       |      ✔       |         ✔          |    ✔    |        ✔         |      ✔      |
+| Entity Score Array         |      ✔       |      ✔       |       ✔       |      ✔       |         ✔          |    ✔    |        ✔         |      ✔      |
+| Entity Life Array          |      ✔       |      ✔       |       ✔       |      ✔       |         ✔          |    ✔    |        ✔         |      ✔      |
 | Archetype Life             |      ✔       |      ✔       |       ✔       |      ✔       |         ✔          |    ✔    |        ✔         |      ✔      |
+| Archetype Score            |      ✔       |      ✔       |       ✔       |      ✔       |         ✔          |    ✔    |        ✔         |      ✔      |
 | Temporary Memory           |      ✔       |      ✔       |       ✔       |      ✔       |         ✔          |    ✔    |        ✔         |      ✔      |
 
 ## Write Access Table
@@ -68,8 +73,13 @@ Blocks can be accessed using `Get` and `Set` functions.
 | Entity Info                |      ❌      |      ❌      |      ❌       |      ❌      |         ❌         |   ❌    |        ❌        |     ❌      |
 | Entity Despawn             |      ✔       |      ✔       |       ✔       |      ✔       |         ✔          |    ✔    |        ✔         |      ✔      |
 | Entity Input               |      ✔       |      ✔       |       ✔       |      ✔       |         ✔          |    ✔    |        ✔         |      ✔      |
+| Entity Score               |      ✔       |      ❌      |      ❌       |      ❌      |         ❌         |   ❌    |        ❌        |     ❌      |
+| Entity Life                |      ✔       |      ❌      |      ❌       |      ❌      |         ❌         |   ❌    |        ❌        |     ❌      |
 | Entity Data Array          |      ✔       |      ❌      |      ❌       |      ❌      |         ❌         |   ❌    |        ❌        |     ❌      |
 | Entity Shared Memory Array |      ✔       |      ❌      |      ❌       |      ❌      |         ✔          |    ✔    |        ❌        |     ❌      |
 | Entity Info Array          |      ❌      |      ❌      |      ❌       |      ❌      |         ❌         |   ❌    |        ❌        |     ❌      |
+| Entity Score Array         |      ✔       |      ❌      |      ❌       |      ❌      |         ❌         |   ❌    |        ❌        |     ❌      |
+| Entity Life Array          |      ✔       |      ❌      |      ❌       |      ❌      |         ❌         |   ❌    |        ❌        |     ❌      |
 | Archetype Life             |      ✔       |      ❌      |      ❌       |      ❌      |         ❌         |   ❌    |        ❌        |     ❌      |
+| Archetype Score            |      ✔       |      ❌      |      ❌       |      ❌      |         ❌         |   ❌    |        ❌        |     ❌      |
 | Temporary Memory           |      ✔       |      ✔       |       ✔       |      ✔       |         ✔          |    ✔    |        ✔         |      ✔      |

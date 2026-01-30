@@ -40,9 +40,12 @@ const LevelScoreId = 2004
 
 ## Remarks
 
-Arcade scoring normalizes maximum score to `1,000,000`, thus Perfect, Great, and Good score multipliers are relative to each other. For example, the following two multiplier setups are equivalent:
+Arcade score per note is calculated as:
 
--   Perfect: `1`, Great: `0.8`, Good: `0.5`.
--   Perfect: `100`, Great: `80`, Good: `50`.
+```
+score = judgmentMultiplier * (consecutiveJudgmentMultiplier + archetypeMultiplier + entityMultiplier)
+```
+
+Arcade scoring normalizes maximum score to `1,000,000`, thus score multipliers are relative to each other.
 
 Consecutive score multiplier accumulates for every step reached, up to cap. For example using consecutive Perfect score, a multiplier of `0.01`, a step of `10`, and a cap of `50`, will result in increasing Perfect score by `0.01` for every `10` consecutive Perfects reached, up to maximum of `50` consecutive Perfects.

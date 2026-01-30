@@ -13,12 +13,19 @@ JSON resource.
 ```ts
 type ReplayConfiguration = {
     options: number[]
+    optionNames?: (Text | (string & {}))[]
 }
 ```
 
 ### `options`
 
 Engine option values.
+
+### `optionNames`.
+
+Engine option names.
+
+This is only available since Sonolus `1.1.0`.
 
 ## Examples
 

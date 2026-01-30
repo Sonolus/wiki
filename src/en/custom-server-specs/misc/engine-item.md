@@ -12,6 +12,7 @@ type EngineItem = {
     title: string
     subtitle: string
     author: string
+    authorUser?: UserItem
     tags: Tag[]
     skin: SkinItem
     background: BackgroundItem

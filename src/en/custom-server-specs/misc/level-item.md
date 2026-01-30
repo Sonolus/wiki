@@ -13,6 +13,7 @@ type LevelItem = {
     title: string
     artists: string
     author: string
+    authorUser?: UserItem
     tags: Tag[]
     engine: EngineItem
     useSkin: UseItem<SkinItem>

@@ -16,6 +16,7 @@ const EntityInputId = 4005
 | 1     | 0             | Accuracy of the entity                                                                              |
 | 2     | -1            | Assigned bucket of the entity: `-1` = None, `0` = 0th bucket, `1`= 1st bucket, `2`= 2nd bucket, etc |
 | 3     | 0             | Bucket value of the entity                                                                          |
+| 4     | 0             | Haptic: `0` = None, `1` = Light, `2` = Medium, `3` = Heavy, `4` = Long                              |
 
 ## Access
 

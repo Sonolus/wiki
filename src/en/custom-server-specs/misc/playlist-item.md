@@ -12,6 +12,7 @@ type PlaylistItem = {
     title: string
     subtitle: string
     author: string
+    authorUser?: UserItem
     tags: Tag[]
     levels: LevelItem[]
     thumbnail?: SRL

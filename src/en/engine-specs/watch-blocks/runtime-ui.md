@@ -21,6 +21,7 @@ const RuntimeUIId = 1005
 | 60-69 | 0             | Layout information of secondary metric bar UI   |
 | 70-79 | 0             | Layout information of secondary metric value UI |
 | 80-89 | 0             | Layout information of progress UI               |
+| 90-99 | 0             | Layout information of progress graph UI         |
 
 For each UI:
 
