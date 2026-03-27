@@ -49,6 +49,7 @@ None.
 
 ```ts
 type ServerItemList<T> = {
+    title?: Text | (string & {})
     pageCount: number
     cursor?: string
     items: T[]
