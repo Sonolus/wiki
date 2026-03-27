@@ -43,6 +43,7 @@ None.
 
 ```ts
 type ServerItemInfo = {
+    title?: Text | (string & {})
     creates?: ServerForm[]
     searches?: ServerForm[]
     quickSearchValues?: string
