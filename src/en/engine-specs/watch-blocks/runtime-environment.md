@@ -17,6 +17,10 @@ const RuntimeEnvironmentId = 1000
 | 2     | ?             | Audio offset                    |
 | 3     | ?             | Input offset                    |
 | 4     | ?             | Replay: `1` = Yes, `0` = No     |
+| 5     | ?             | Safe area X min                 |
+| 6     | ?             | Safe area X max                 |
+| 7     | ?             | Safe area Y min                 |
+| 8     | ?             | Safe area Y max                 |
 
 ## Access
 
