@@ -5,7 +5,7 @@
 ```ts
 type UpdateScoreboardDescriptionEvent = {
     type: 'updateScoreboardDescription'
-    scoreboardDescription?: string
+    scoreboardDescription?: Text | (string & {})
 }
 ```
 
@@ -13,4 +13,4 @@ type UpdateScoreboardDescriptionEvent = {
 
 Upon receiving, client will:
 
--   Update scoreboard description to `scoreboardDescription`.
+- Update scoreboard description to `scoreboardDescription`.

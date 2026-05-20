@@ -12,7 +12,7 @@ type EngineConfigurationOption =
 
 type EngineConfigurationSliderOption = {
     name: Text | (string & {})
-    description?: string
+    description?: Text | (string & {})
     standard?: boolean
     advanced?: boolean
     scope?: string
@@ -26,7 +26,7 @@ type EngineConfigurationSliderOption = {
 
 type EngineConfigurationToggleOption = {
     name: Text | (string & {})
-    description?: string
+    description?: Text | (string & {})
     standard?: boolean
     advanced?: boolean
     scope?: string
@@ -36,7 +36,7 @@ type EngineConfigurationToggleOption = {
 
 type EngineConfigurationSelectOption = {
     name: Text | (string & {})
-    description?: string
+    description?: Text | (string & {})
     standard?: boolean
     advanced?: boolean
     scope?: string
@@ -52,7 +52,7 @@ Standardized option names starts with `#` and will be translated into client lan
 
 Special options names will have its effect applied automatically:
 
--   `#SPEED`: Change speed of BGM and BPM values.
+- `#SPEED`: Change speed of BGM and BPM values.
 
 ### `standard`
 

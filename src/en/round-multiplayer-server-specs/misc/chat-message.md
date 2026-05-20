@@ -13,9 +13,17 @@ type QuickChatMessage = {
     value: 'hello' | 'glhf' | 'gg' | 'ns' | 'ty'
 }
 
-type TextChatMessage = {
-    userId: ServiceUserId | null
+type TextChatMessage = UserTextChatMessage | RoomTextChatMessage
+
+type UserTextChatMessage = {
+    userId: ServiceUserId
     type: 'text'
     value: string
+}
+
+type RoomTextChatMessage = {
+    userId: null
+    type: 'text'
+    value: Text | (string & {})
 }
 ```
