@@ -69,7 +69,6 @@ type ServerInfoItemButton = {
         | 'particle'
         | 'engine'
         | 'user'
-        | 'configuration'
     title?: Text | (string & {})
     icon?: Icon | (string & {})
     badgeCount?: number
