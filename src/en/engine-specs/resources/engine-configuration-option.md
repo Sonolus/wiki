@@ -12,6 +12,7 @@ type EngineConfigurationOption =
 
 type EngineConfigurationSliderOption = {
     name: Text | (string & {})
+    title?: Text | (string & {})
     description?: Text | (string & {})
     standard?: boolean
     advanced?: boolean
@@ -26,6 +27,7 @@ type EngineConfigurationSliderOption = {
 
 type EngineConfigurationToggleOption = {
     name: Text | (string & {})
+    title?: Text | (string & {})
     description?: Text | (string & {})
     standard?: boolean
     advanced?: boolean
@@ -36,6 +38,7 @@ type EngineConfigurationToggleOption = {
 
 type EngineConfigurationSelectOption = {
     name: Text | (string & {})
+    title?: Text | (string & {})
     description?: Text | (string & {})
     standard?: boolean
     advanced?: boolean
@@ -47,8 +50,6 @@ type EngineConfigurationSelectOption = {
 ```
 
 ### `name`
-
-Standardized option names starts with `#` and will be translated into client language when displayed.
 
 Special options names will have its effect applied automatically:
 
