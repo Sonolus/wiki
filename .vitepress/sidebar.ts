@@ -211,6 +211,7 @@ export const sidebar = {
             '/query-parameters/options-query-parameters',
         ],
         misc: [
+            '/misc/text-localization',
             '/misc/deep-links-and-share-links',
             '/misc/external-authentication',
             '/misc/user-avatar',
