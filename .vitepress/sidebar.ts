@@ -20,6 +20,7 @@ export const sidebar = {
     'release-notes': {
         releaseNotes: [''],
         versions: [
+            '/versions/1.1.2',
             '/versions/1.1.1',
             '/versions/1.1.0',
             '/versions/1.0.2',
@@ -211,6 +212,7 @@ export const sidebar = {
             '/query-parameters/options-query-parameters',
         ],
         misc: [
+            '/misc/text-localization',
             '/misc/deep-links-and-share-links',
             '/misc/external-authentication',
             '/misc/user-avatar',

@@ -45,7 +45,7 @@ None.
 ```ts
 type ServerItemDetails<T> = {
     item: T
-    description?: string
+    description?: Text | (string & {})
     actions: ServerForm[]
     hasCommunity: boolean
     leaderboards: ServerItemLeaderboard[]

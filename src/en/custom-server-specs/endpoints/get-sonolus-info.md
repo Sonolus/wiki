@@ -41,7 +41,7 @@ None.
 ```ts
 type ServerInfo = {
     title: string
-    description?: string
+    description?: Text | (string & {})
     buttons: ServerInfoButton[]
     configuration: ServerConfiguration
     banner?: Srl

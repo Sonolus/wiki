@@ -15,8 +15,11 @@ Draw a skin sprite.
 | y3       | Y3                |
 | x4       | X4                |
 | y4       | Y4                |
-| z        | Z                 |
+| z1       | Z1                |
 | a        | Alpha             |
+| z2?      | Z2                |
+| z3?      | Z3                |
+| z4?      | Z4                |
 
 ## Return
 

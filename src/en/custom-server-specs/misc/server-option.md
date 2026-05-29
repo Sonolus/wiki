@@ -20,7 +20,7 @@ type ServerOption =
 type ServerTextOption = {
     query: string
     name: Text | (string & {})
-    description?: string
+    description?: Text | (string & {})
     required: boolean
     type: 'text'
     def: string
@@ -32,7 +32,7 @@ type ServerTextOption = {
 type ServerTextAreaOption = {
     query: string
     name: Text | (string & {})
-    description?: string
+    description?: Text | (string & {})
     required: boolean
     type: 'textArea'
     def: string
@@ -44,7 +44,7 @@ type ServerTextAreaOption = {
 type ServerSliderOption = {
     query: string
     name: Text | (string & {})
-    description?: string
+    description?: Text | (string & {})
     required: boolean
     type: 'slider'
     def: number
@@ -57,7 +57,7 @@ type ServerSliderOption = {
 type ServerToggleOption = {
     query: string
     name: Text | (string & {})
-    description?: string
+    description?: Text | (string & {})
     required: boolean
     type: 'toggle'
     def: boolean
@@ -66,7 +66,7 @@ type ServerToggleOption = {
 type ServerSelectOption = {
     query: string
     name: Text | (string & {})
-    description?: string
+    description?: Text | (string & {})
     required: boolean
     type: 'select'
     def: string
@@ -79,7 +79,7 @@ type ServerSelectOption = {
 type ServerMultiOption = {
     query: string
     name: Text | (string & {})
-    description?: string
+    description?: Text | (string & {})
     required: boolean
     type: 'multi'
     def: boolean[]
@@ -92,7 +92,7 @@ type ServerMultiOption = {
 type ServerServerItemOption = {
     query: string
     name: Text | (string & {})
-    description?: string
+    description?: Text | (string & {})
     required: boolean
     type: 'serverItem'
     itemType: ItemType
@@ -104,7 +104,7 @@ type ServerServerItemOption = {
 type ServerServerItemsOption = {
     query: string
     name: Text | (string & {})
-    description?: string
+    description?: Text | (string & {})
     required: boolean
     type: 'serverItems'
     itemType: ItemType
@@ -117,7 +117,7 @@ type ServerServerItemsOption = {
 type ServerCollectionItemOption = {
     query: string
     name: Text | (string & {})
-    description?: string
+    description?: Text | (string & {})
     required: boolean
     type: 'collectionItem'
     itemType: ItemType
@@ -126,7 +126,7 @@ type ServerCollectionItemOption = {
 type ServerFileOption = {
     query: string
     name: Text | (string & {})
-    description?: string
+    description?: Text | (string & {})
     required: boolean
     type: 'file'
     def: string

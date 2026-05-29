@@ -10,7 +10,7 @@ type ServerItemCommunityComment = {
     author: string
     authorUser?: UserItem
     time: number
-    content: string
+    content: Text | (string & {})
     actions: ServerForm[]
 }
 ```
