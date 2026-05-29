@@ -15,11 +15,14 @@ Draw a skin sprite with curved edge.
 | y3       | Y3                              |
 | x4       | X4                              |
 | y4       | Y4                              |
-| z        | Z                               |
+| z1       | Z1                              |
 | a        | Alpha                           |
 | n        | Number of segments              |
 | p        | P of control point on left edge |
 | q        | Q of control point on left edge |
+| z2?      | Z2                              |
+| z3?      | Z3                              |
+| z4?      | Z4                              |
 
 ## Return
 
