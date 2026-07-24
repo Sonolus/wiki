@@ -20,6 +20,7 @@ export const sidebar = {
     'release-notes': {
         releaseNotes: [''],
         versions: [
+            '/versions/1.1.3',
             '/versions/1.1.2',
             '/versions/1.1.1',
             '/versions/1.1.0',
