@@ -33,6 +33,7 @@ Special interpolation functions can be used:
 - `##`: Escapes argument. For example `##:#TITLE` evaluates to `#TITLE` (instead of `#TITLE`'s localized text).
 - `##TIME_FULL`: Formatted full time. For example `##TIME_FULL:1767225600000` evaluates to 00:00 Jan 1st 2026, displayed using player's timezone and datetime formatting.
 - `##TIME_RELATIVE`: Formatted relative time. For example `##TIME_FULL:1767225600000` evaluates to 00:00 Jan 1st 2026, displayed relative to current time using localized texts such as `#DAY_PAST` and `#DAY_FUTURE`.
+- `##LOCALIZE`: Localize text based on language. For example `##LOCALIZE:{"en": "Hello!","zhs": "你好！"}` evaluates to `Hello!` for players with English selected as their language. For players with language not included in the argument, it evaluates to the first language.
 
 ## Multiline Interpolation
 
