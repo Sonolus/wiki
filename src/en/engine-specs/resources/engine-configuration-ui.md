@@ -24,7 +24,20 @@ type EngineConfigurationUI = {
     judgmentErrorMin: number
 }
 
-type EngineConfigurationMetric = 'arcade' | 'accuracy' | 'life' | 'perfectRate' | 'errorHeatmap'
+type EngineConfigurationMetric =
+    | 'arcade'
+    | 'arcadePercentage'
+    | 'accuracy'
+    | 'accuracyPercentage'
+    | 'life'
+    | 'time'
+    | 'perfect'
+    | 'perfectPercentage'
+    | 'greatGoodMiss'
+    | 'greatGoodMissPercentage'
+    | 'miss'
+    | 'missPercentage'
+    | 'errorHeatmap'
 
 type EngineConfigurationVisibility = {
     scale: number
