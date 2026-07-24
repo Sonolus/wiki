@@ -15,6 +15,8 @@ type BackgroundData = {
     aspectRatio?: number
     fit: 'width' | 'height' | 'contain' | 'cover'
     color: string
+    scaleX?: number
+    scaleY?: number
 }
 ```
 
@@ -33,6 +35,12 @@ Fitting strategy when background image aspect ratio does not match screen aspect
 HTML color string for background color.
 
 Supported formats: `#RGB`, and `#RRGGBB`.
+
+### `scaleX` and `scaleY`
+
+Optional scaling of the background image.
+
+If present, background image will be scaled respectively after `aspectRatio` and `fit` have been applied.
 
 ## Examples
 
