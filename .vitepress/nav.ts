@@ -2,6 +2,7 @@ export const nav = {
     player: ['getting-started', 'release-notes'],
     developer: [
         'sonolus.js-guide',
+        'sonolus.py-guide',
         'custom-server-specs',
         'round-multiplayer-server-specs',
         'level-specs',
