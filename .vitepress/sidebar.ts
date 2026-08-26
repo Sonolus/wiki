@@ -469,6 +469,7 @@ export const sidebar = {
         resources: [
             '/resources/engine-thumbnail',
             '/resources/engine-configuration',
+            '/resources/engine-configuration-option-category',
             '/resources/engine-configuration-option',
             '/resources/engine-configuration-ui',
             '/resources/engine-play-data',
