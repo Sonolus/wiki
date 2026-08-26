@@ -13,9 +13,9 @@ type ParticleItem = {
     subtitle: string
     author: string
     tags: Tag[]
-    thumbnail: SRL
-    data: SRL
-    texture: SRL
+    thumbnail: Srl
+    data: Srl
+    texture: Srl
 }
 ```
 

@@ -11,9 +11,9 @@ type RoomItem = {
     subtitle: string
     master: string
     tags: Tag[]
-    cover?: SRL
-    bgm?: SRL
-    preview?: SRL
+    cover?: Srl
+    bgm?: Srl
+    preview?: Srl
 }
 ```
 

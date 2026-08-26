@@ -20,10 +20,10 @@ type LevelItem = {
     useBackground: UseItem<BackgroundItem>
     useEffect: UseItem<EffectItem>
     useParticle: UseItem<ParticleItem>
-    cover: SRL
-    bgm: SRL
-    preview?: SRL
-    data: SRL
+    cover: Srl
+    bgm: Srl
+    preview?: Srl
+    data: Srl
 }
 
 type UseItem<T> =

@@ -15,8 +15,8 @@ type ReplayItem = {
     authorUser?: UserItem
     tags: Tag[]
     level: LevelItem
-    data: SRL
-    configuration: SRL
+    data: Srl
+    configuration: Srl
 }
 ```
 

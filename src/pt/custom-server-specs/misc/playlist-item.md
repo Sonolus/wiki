@@ -14,7 +14,7 @@ type PlaylistItem = {
     author: string
     tags: Tag[]
     levels: LevelItem[]
-    thumbnail?: SRL
+    thumbnail?: Srl
 }
 ```
 

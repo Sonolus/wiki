@@ -14,7 +14,7 @@ type PostItem = {
     author: string
     authorUser?: UserItem
     tags: Tag[]
-    thumbnail?: SRL
+    thumbnail?: Srl
 }
 ```
 

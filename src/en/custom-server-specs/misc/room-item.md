@@ -12,9 +12,9 @@ type RoomItem = {
     master: string
     masterUser?: UserItem
     tags: Tag[]
-    cover?: SRL
-    bgm?: SRL
-    preview?: SRL
+    cover?: Srl
+    bgm?: Srl
+    preview?: Srl
 }
 ```
 

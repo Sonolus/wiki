@@ -14,9 +14,9 @@ type SkinItem = {
     author: string
     authorUser?: UserItem
     tags: Tag[]
-    thumbnail: SRL
-    data: SRL
-    texture: SRL
+    thumbnail: Srl
+    data: Srl
+    texture: Srl
 }
 ```
 

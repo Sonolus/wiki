@@ -13,9 +13,9 @@ type EffectItem = {
     subtitle: string
     author: string
     tags: Tag[]
-    thumbnail: SRL
-    data: SRL
-    audio: SRL
+    thumbnail: Srl
+    data: Srl
+    audio: Srl
 }
 ```
 

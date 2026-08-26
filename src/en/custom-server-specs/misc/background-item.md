@@ -14,10 +14,10 @@ type BackgroundItem = {
     author: string
     authorUser?: UserItem
     tags: Tag[]
-    thumbnail: SRL
-    data: SRL
-    image: SRL
-    configuration: SRL
+    thumbnail: Srl
+    data: Srl
+    image: Srl
+    configuration: Srl
 }
 ```
 

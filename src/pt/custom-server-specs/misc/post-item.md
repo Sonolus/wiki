@@ -13,7 +13,7 @@ type PostItem = {
     time: number
     author: string
     tags: Tag[]
-    thumbnail?: SRL
+    thumbnail?: Srl
 }
 ```
 
