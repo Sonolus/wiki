@@ -5,7 +5,7 @@
 ```ts
 type UpdateTitleEvent = {
     type: 'updateTitle'
-    title: string
+    title: Text | (string & {})
 }
 ```
 
@@ -13,4 +13,4 @@ type UpdateTitleEvent = {
 
 Upon receiving, client will:
 
--   Update title to `title`.
+- Update title to `title`.

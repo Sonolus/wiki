@@ -9,9 +9,10 @@ type PlaylistItem = {
     name: string
     source?: string
     version: 1
-    title: string
-    subtitle: string
+    title: Text | (string & {})
+    subtitle: Text | (string & {})
     author: string
+    authorUser?: UserItem
     tags: Tag[]
     levels: LevelItem[]
     thumbnail?: Srl

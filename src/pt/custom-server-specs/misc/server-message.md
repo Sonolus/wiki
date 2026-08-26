@@ -6,7 +6,7 @@
 
 ```ts
 type ServerMessage = {
-    message?: string
+    message?: Text | (string & {})
 }
 ```
 

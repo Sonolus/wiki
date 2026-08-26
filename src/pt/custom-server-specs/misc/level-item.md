@@ -10,9 +10,10 @@ type LevelItem = {
     source?: string
     version: 1
     rating: number
-    title: string
-    artists: string
+    title: Text | (string & {})
+    artists: Text | (string & {})
     author: string
+    authorUser?: UserItem
     tags: Tag[]
     engine: EngineItem
     useSkin: UseItem<SkinItem>

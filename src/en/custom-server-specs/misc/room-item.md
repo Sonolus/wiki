@@ -7,8 +7,8 @@
 ```ts
 type RoomItem = {
     name: string
-    title: string
-    subtitle: string
+    title: Text | (string & {})
+    subtitle: Text | (string & {})
     master: string
     masterUser?: UserItem
     tags: Tag[]

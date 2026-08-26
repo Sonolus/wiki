@@ -9,9 +9,10 @@ type ParticleItem = {
     name: string
     source?: string
     version: 3
-    title: string
-    subtitle: string
+    title: Text | (string & {})
+    subtitle: Text | (string & {})
     author: string
+    authorUser?: UserItem
     tags: Tag[]
     thumbnail: Srl
     data: Srl

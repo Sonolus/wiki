@@ -40,8 +40,8 @@ Cabeçalho | Valor | Descrição
 
 ```ts
 type ServerInfo = {
-    title: string
-    description?: string
+    title: Text | (string & {})
+    description?: Text | (string & {})
     buttons: ServerInfoButton[]
     configuration: ServerConfiguration
     banner?: Srl

@@ -9,7 +9,7 @@ type PostItem = {
     name: string
     source?: string
     version: 1
-    title: string
+    title: Text | (string & {})
     time: number
     author: string
     authorUser?: UserItem

@@ -40,7 +40,7 @@ None.
 
 ```ts
 type ServerInfo = {
-    title: string
+    title: Text | (string & {})
     description?: Text | (string & {})
     buttons: ServerInfoButton[]
     configuration: ServerConfiguration
