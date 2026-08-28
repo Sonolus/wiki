@@ -10,12 +10,13 @@ const RuntimeUpdateId = 1001
 
 ## Values
 
-| Index | Initial Value | Description |
-| ----- | ------------- | ----------- |
-| 0     | ?             | Time        |
-| 1     | ?             | Delta time  |
-| 2     | ?             | Scaled time |
-| 3     | ?             | Touch count |
+| Index | Initial Value | Description               |
+| ----- | ------------- | ------------------------- |
+| 0     | ?             | Time                      |
+| 1     | ?             | Delta time                |
+| 2     | ?             | Scaled time               |
+| 3     | ?             | Touch count               |
+| 4     | ?             | Skip: `1` = Yes, `0` = No |
 
 ## Access
 
