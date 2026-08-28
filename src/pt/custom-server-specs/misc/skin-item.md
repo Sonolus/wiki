@@ -9,13 +9,14 @@ type SkinItem = {
     name: string
     source?: string
     version: 4
-    title: string
-    subtitle: string
+    title: Text | (string & {})
+    subtitle: Text | (string & {})
     author: string
+    authorUser?: UserItem
     tags: Tag[]
-    thumbnail: SRL
-    data: SRL
-    texture: SRL
+    thumbnail: Srl
+    data: Srl
+    texture: Srl
 }
 ```
 

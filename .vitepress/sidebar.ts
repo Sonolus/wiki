@@ -20,6 +20,7 @@ export const sidebar = {
     'release-notes': {
         releaseNotes: [''],
         versions: [
+            '/versions/1.1.4',
             '/versions/1.1.3',
             '/versions/1.1.2',
             '/versions/1.1.1',
@@ -469,6 +470,7 @@ export const sidebar = {
         resources: [
             '/resources/engine-thumbnail',
             '/resources/engine-configuration',
+            '/resources/engine-configuration-option-category',
             '/resources/engine-configuration-option',
             '/resources/engine-configuration-ui',
             '/resources/engine-play-data',

@@ -7,7 +7,7 @@ type UpdateEvent = {
     type: 'update'
     allowOtherServers: boolean
     reportUserOptions: ServerForm[]
-    title: string
+    title: Text | (string & {})
     status: RoomStatus
     master: ServiceUserId | null
     lead: ServiceUserId | null

@@ -9,21 +9,22 @@ type EngineItem = {
     name: string
     source?: string
     version: 13
-    title: string
-    subtitle: string
+    title: Text | (string & {})
+    subtitle: Text | (string & {})
     author: string
+    authorUser?: UserItem
     tags: Tag[]
     skin: SkinItem
     background: BackgroundItem
     effect: EffectItem
     particle: ParticleItem
-    thumbnail: SRL
-    playData: SRL
-    watchData: SRL
-    previewData: SRL
-    tutorialData: SRL
-    rom?: SRL
-    configuration: SRL
+    thumbnail: Srl
+    playData: Srl
+    watchData: Srl
+    previewData: Srl
+    tutorialData: Srl
+    rom?: Srl
+    configuration: Srl
 }
 ```
 

@@ -12,11 +12,16 @@ JSON resource.
 
 ```ts
 type EngineConfiguration = {
+    optionCategories?: EngineConfigurationOptionCategory[]
     options: EngineConfigurationOption[]
     ui: EngineConfigurationUI
     replayFallbackOptionNames?: (Text | (string & {}))[]
 }
 ```
+
+### `optionCategories`
+
+If present, all `options` must specify `category`.
 
 ### `replayFallbackOptionNames`
 

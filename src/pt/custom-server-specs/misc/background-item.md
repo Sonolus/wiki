@@ -9,14 +9,15 @@ type BackgroundItem = {
     name: string
     source?: string
     version: 2
-    title: string
-    subtitle: string
+    title: Text | (string & {})
+    subtitle: Text | (string & {})
     author: string
+    authorUser?: UserItem
     tags: Tag[]
-    thumbnail: SRL
-    data: SRL
-    image: SRL
-    configuration: SRL
+    thumbnail: Srl
+    data: Srl
+    image: Srl
+    configuration: Srl
 }
 ```
 

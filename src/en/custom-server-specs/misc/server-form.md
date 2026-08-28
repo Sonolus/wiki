@@ -10,7 +10,7 @@ type ServerForm = {
     title: Text | (string & {})
     icon?: Icon | (string & {})
     description?: Text | (string & {})
-    help?: string
+    help?: Text | (string & {})
     requireConfirmation: boolean
     options: ServerOption[]
 }

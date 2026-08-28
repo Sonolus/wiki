@@ -26,7 +26,7 @@ type ServerTextOption = {
     def: string
     placeholder: Text | (string & {})
     limit: number
-    shortcuts: string[]
+    shortcuts: (Text | (string & {}))[]
 }
 
 type ServerTextAreaOption = {
@@ -38,7 +38,7 @@ type ServerTextAreaOption = {
     def: string
     placeholder: Text | (string & {})
     limit: number
-    shortcuts: string[]
+    shortcuts: (Text | (string & {}))[]
 }
 
 type ServerSliderOption = {

@@ -9,8 +9,8 @@ type ServerForm = {
     type: string
     title: Text | (string & {})
     icon?: Icon | (string & {})
-    description?: string
-    help?: string
+    description?: Text | (string & {})
+    help?: Text | (string & {})
     requireConfirmation: boolean
     options: ServerOption[]
 }

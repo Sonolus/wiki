@@ -9,13 +9,14 @@ type EffectItem = {
     name: string
     source?: string
     version: 5
-    title: string
-    subtitle: string
+    title: Text | (string & {})
+    subtitle: Text | (string & {})
     author: string
+    authorUser?: UserItem
     tags: Tag[]
-    thumbnail: SRL
-    data: SRL
-    audio: SRL
+    thumbnail: Srl
+    data: Srl
+    audio: Srl
 }
 ```
 

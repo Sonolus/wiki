@@ -10,8 +10,8 @@ type LevelItem = {
     source?: string
     version: 1
     rating: number
-    title: string
-    artists: string
+    title: Text | (string & {})
+    artists: Text | (string & {})
     author: string
     authorUser?: UserItem
     tags: Tag[]
@@ -20,10 +20,10 @@ type LevelItem = {
     useBackground: UseItem<BackgroundItem>
     useEffect: UseItem<EffectItem>
     useParticle: UseItem<ParticleItem>
-    cover: SRL
-    bgm: SRL
-    preview?: SRL
-    data: SRL
+    cover: Srl
+    bgm: Srl
+    preview?: Srl
+    data: Srl
 }
 
 type UseItem<T> =
