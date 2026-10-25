@@ -21,6 +21,8 @@ type EnginePreviewData = {
     }
     archetypes: EnginePreviewDataArchetype[]
     nodes: EngineDataNode[]
+    entityDataLength?: number
+    entitySharedMemoryLength?: number
 }
 ```
 
@@ -29,6 +31,14 @@ type EnginePreviewData = {
 Render mode.
 
 When not specified or `'default'`, will use user's settings; otherwise use specified render mode.
+
+### `entityDataLength`
+
+Optional length of Entity Data and Entity Data Array block.
+
+### `entitySharedMemoryLength`
+
+Optional length of Entity Shared Memory and Entity Shared Memory Array block.
 
 ## Examples
 

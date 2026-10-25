@@ -35,6 +35,9 @@ type EngineWatchData = {
     archetypes: EngineWatchDataArchetype[]
     updateSpawn: number
     nodes: EngineDataNode[]
+    entityMemoryLength?: number
+    entityDataLength?: number
+    entitySharedMemoryLength?: number
 }
 ```
 
@@ -47,6 +50,18 @@ When not specified or `'default'`, will use user's settings; otherwise use speci
 ### `updateSpawn`
 
 Index of entry node in `nodes` array.
+
+### `entityMemoryLength`
+
+Optional length of Entity Memory block.
+
+### `entityDataLength`
+
+Optional length of Entity Data and Entity Data Array block.
+
+### `entitySharedMemoryLength`
+
+Optional length of Entity Shared Memory and Entity Shared Memory Array block.
 
 ## Examples
 

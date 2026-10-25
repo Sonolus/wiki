@@ -34,6 +34,9 @@ type EnginePlayData = {
     buckets: EngineDataBucket[]
     archetypes: EnginePlayDataArchetype[]
     nodes: EngineDataNode[]
+    entityMemoryLength?: number
+    entityDataLength?: number
+    entitySharedMemoryLength?: number
 }
 ```
 
@@ -42,6 +45,18 @@ type EnginePlayData = {
 Render mode.
 
 When not specified or `'default'`, will use user's settings; otherwise use specified render mode.
+
+### `entityMemoryLength`
+
+Optional length of Entity Memory block.
+
+### `entityDataLength`
+
+Optional length of Entity Data and Entity Data Array block.
+
+### `entitySharedMemoryLength`
+
+Optional length of Entity Shared Memory and Entity Shared Memory Array block.
 
 ## Examples
 
