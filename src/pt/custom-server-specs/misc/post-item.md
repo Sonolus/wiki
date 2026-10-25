@@ -11,7 +11,7 @@ type PostItem = {
     version: 1
     title: Text | (string & {})
     time: number
-    author: string
+    author: Text | (string & {})
     authorUser?: UserItem
     tags: Tag[]
     thumbnail?: Srl

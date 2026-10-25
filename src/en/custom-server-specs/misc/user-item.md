@@ -8,7 +8,7 @@
 type UserItem = {
     name: string
     source?: string
-    title: string
+    title: Text | (string & {})
     handle?: string
     tags: Tag[]
 }

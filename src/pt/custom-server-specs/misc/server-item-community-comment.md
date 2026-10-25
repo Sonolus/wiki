@@ -7,7 +7,7 @@
 ```ts
 type ServerItemCommunityComment = {
     name: string
-    author: string
+    author: Text | (string & {})
     time: number
     content: string
     actions: ServerForm[]
