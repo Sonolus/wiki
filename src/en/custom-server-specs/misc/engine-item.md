@@ -11,7 +11,7 @@ type EngineItem = {
     version: 13
     title: Text | (string & {})
     subtitle: Text | (string & {})
-    author: string
+    author: Text | (string & {})
     authorUser?: UserItem
     tags: Tag[]
     skin: SkinItem

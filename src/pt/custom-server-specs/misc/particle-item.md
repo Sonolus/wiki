@@ -11,7 +11,7 @@ type ParticleItem = {
     version: 3
     title: Text | (string & {})
     subtitle: Text | (string & {})
-    author: string
+    author: Text | (string & {})
     authorUser?: UserItem
     tags: Tag[]
     thumbnail: Srl

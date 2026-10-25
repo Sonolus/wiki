@@ -8,7 +8,7 @@
 type ServerItemLeaderboardRecord = {
     name: string
     rank: Text | (string & {})
-    player: string
+    player: Text | (string & {})
     playerUser?: UserItem
     value: Text | (string & {})
 }
